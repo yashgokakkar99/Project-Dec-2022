@@ -1,8 +1,14 @@
+h2{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
 .container.contact__container{
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
-    gap :12%
+    gap :24%
 }
 
 .contact__options{
