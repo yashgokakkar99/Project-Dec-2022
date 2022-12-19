@@ -3,10 +3,9 @@ import './Navbar_style.css'
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar
-      {/* <h1>hello</h1> */}
-    </div>
+    <section id="Navbar">
+      
+    </section>
   )
 }
 

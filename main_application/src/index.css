@@ -59,6 +59,11 @@ section{
   margin-top: 4rem;
   height: 100vh;
 }
+
+#Navbar{
+  height: 20vh;
+}
+
 section>h2,section h5{
   text-align: center;
   color:var(--color-light);
