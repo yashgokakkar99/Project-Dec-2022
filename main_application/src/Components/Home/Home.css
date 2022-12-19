@@ -22,3 +22,14 @@
     text-align: center;
     margin: auto;
 }
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9{
+    height: 11rem;
+    width: 13rem;
+    justify-content: center;
+}
+
+.i1{
+    display: flex;
+    justify-content: center;
+}
