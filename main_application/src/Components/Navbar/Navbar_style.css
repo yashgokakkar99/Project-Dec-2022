@@ -1,3 +1,45 @@
 h1{
     font-size: 50px;
 }
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_con{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav_items{
+    display: flex;
+    padding: 15px;
+}
+
+.nav_items a{
+    color: white;
+}
+
+.nav_con a:hover{
+    background: aqua;
+}
+
+/*
+#nav1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right-color: #332e7b;
+}
+
+#nav2{
+    border-left-color: #332e7b;
+}
+
+#nav3{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+*/
