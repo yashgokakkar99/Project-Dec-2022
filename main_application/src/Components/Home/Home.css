@@ -1,0 +1,24 @@
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 13rem;
+    row-gap: 1.875rem;
+    column-gap: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    align-items: auto;
+}
+
+.rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8, .rect9{
+    border: 5px solid red;
+    background-color: white;
+    color: black;
+    height: 13.625rem;
+    border-radius: 2.188rem;
+}
+
+.rect1 h4,.rect2 h4,.rect3 h4,.rect4 h4,.rect5 h4,.rect6 h4,.rect7 h4,.rect8 h4,.rect9 h4{
+    text-align: center;
+    margin: auto;
+}
