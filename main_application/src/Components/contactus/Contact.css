@@ -1,8 +1,14 @@
+h2{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
 .container.contact__container{
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
-    gap :12%
+    gap :24%
 }
 
 .contact__options{
@@ -50,6 +56,30 @@ input,textarea{
     resize: none;
     color: aliceblue;
 }
+
+.btn{
+    width:max-content;
+    display: inline-block;
+    color:var(--color-primary);
+    padding:0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor:pointer;
+    border:1px solid var(--color-primary);
+    transition: var(--transition);
+  }
+  
+  .btn:hover{
+    background: var(--color-white);
+    color:var(--color-bg);
+    border-color: transparent;
+  
+  }
+  
+  .btn-primary{
+    background: var(--color-primary);
+    color:var(--color-bg);
+  
+  }
 
 /* -----media queires for (medium devices)----- */
 @media screen and (max-width:1024px){
