@@ -1,0 +1,20 @@
+.maindiv_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 1.875rem;
+}
+
+.offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
+    border: 5px solid red;
+    background-color: white;
+    color: black;
+    border-radius: 2.188rem;
+    height: 400px;
+}
+
+.offi_websites h4,.yt_videos h4,.Projects h4,.Roadmap h4,.Courses h4,.Suggestion_form h4{
+    text-align: center;
+    margin: auto;
+}
