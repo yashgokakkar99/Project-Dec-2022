@@ -32,26 +32,26 @@ const Suggestion = () => {
           </select>
           <input
             type="text"
-            name="recommended website"
-            placeholder="website"
+            name="website"
+            placeholder="recommended website"
             required
           ></input>
           <input
             type="text"
             name="youtube channels"
-            placeholder="channels"
+            placeholder="recommended youtube channels"
             required
           ></input>
           <input
             type="text"
             name="courses"
-            placeholder="Courses"
+            placeholder="recommended Courses"
             required
           ></input>
           <input
             type="text"
             name="idea"
-            placeholder="project idea"
+            placeholder="new project idea"
             required
           ></input>
           <textarea

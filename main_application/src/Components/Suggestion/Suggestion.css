@@ -61,7 +61,7 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: rgb(233, 242, 250);
+    color: rgb(230, 238, 247);
 }
 
 select{
