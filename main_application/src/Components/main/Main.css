@@ -4,6 +4,7 @@
     column-gap: 30px;
     row-gap: 30px;
     padding: 1.875rem;
+    height: 100vh;
 }
 
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
@@ -11,7 +12,7 @@
     background-color: white;
     color: black;
     border-radius: 2.188rem;
-    height: 400px;
+    height: 300px;
 }
 
 .offi_websites h4,.yt_videos h4,.Projects h4,.Roadmap h4,.Courses h4,.Suggestion_form h4{
