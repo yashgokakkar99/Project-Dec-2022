@@ -1,4 +1,4 @@
-h1{
+/* h1{
     font-size: 50px;
 }
 .nav{
@@ -42,4 +42,37 @@ h1{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-*/
+*/ 
+
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    width:max-content;
+    display:block;
+    position:fixed;
+    padding:0.5rem 1rem ;
+    z-index:2;
+    left: 50%;
+    transform: translateX(-50%);
+    /* bottom: 2rem; */
+    display: flex;
+    gap:0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(4px);
+}
+
+nav a{
+    background:transparent;
+    padding:0.9rem;
+    border-radius:50%;
+    display:flex;
+    color:var(--color-light);
+    font-size: 1.1rem;
+
+}
+nav a:hover{
+    background: rgba(248, 242, 240, 0.4);
+}
+
+nav:hover{
+    background: purple;
+}
