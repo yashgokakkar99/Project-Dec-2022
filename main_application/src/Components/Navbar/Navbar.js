@@ -4,7 +4,7 @@ import './Navbar_style.css'
 const Navbar = () => {
   return (
     <section id="Navbar">
-      <div className="nav">
+      {/* <div className="nav">
         <ul className='nav_con'>
           <li className='nav_items' id='nav1'>
             <a href="#">Home</a>
@@ -16,7 +16,15 @@ const Navbar = () => {
             <a href="#contact">Contact us</a>
           </li>
         </ul>
+      </div> */}
+      <div className='navcover'>
+      <div className='navicon'>
+      <a href="#">Home</a>
+      <a href="#About">About us</a>
+      <a href="#contact">Contact us</a>
       </div>
+      </div>
+      
     </section>
   )
 }

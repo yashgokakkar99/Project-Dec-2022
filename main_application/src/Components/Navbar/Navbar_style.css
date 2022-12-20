@@ -1,4 +1,4 @@
-h1{
+/* h1{
     font-size: 50px;
 }
 .nav{
@@ -25,7 +25,7 @@ h1{
 
 .nav_con a:hover{
     background: aqua;
-}
+} */
 
 /*
 #nav1{
@@ -43,3 +43,28 @@ h1{
     border-bottom-right-radius: 20px;
 }
 */
+
+.navcover{
+    display: flex;
+    justify-content: center;
+}
+
+.navicon{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.navicon a{
+    color: white;
+    padding: 5px 20px;
+    flex-wrap: nowrap;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.navicon a:hover{
+    background-color: aqua;
+    color: black;
+}
