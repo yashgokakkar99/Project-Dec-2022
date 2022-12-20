@@ -22,15 +22,21 @@ const About = () => {
           mollitia saepe <br></br>
           consequuntur nam itaque ex sequi omnis accusamus iure! Fugiat
           inventore nisi, <br></br>
-          cum sint adipisci suscipit officiis perferendis debitis id!
+         
         </p>
       </div>
       <div className="portfolio__container">
           <div className="portfolio_img">
             <img src={IMG1} alt="" />
+            <a href="https://linktr.ee/yash_gokakkar" target="_blank" className="btn">
+              Connect
+            </a>
           </div>
           <div className="portfolio_img">
             <img src={IMG2} alt="" />
+            <a href="https://linktr.ee/ashu_2643" target="_blank" className="btn">
+              Connect
+            </a>
         </div>
       </div>
     </section>
