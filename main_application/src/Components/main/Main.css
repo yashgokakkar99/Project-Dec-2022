@@ -1,3 +1,5 @@
+
+
 .maindiv_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -40,4 +42,25 @@
     border: 2px solid red;
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
+}
+
+.img_marquee{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+}
+
+.yt1{
+    margin: auto;
+    padding: 10px;
+}
+
+.im1{
+    height: 200px;
+    width: 250px;
 }
