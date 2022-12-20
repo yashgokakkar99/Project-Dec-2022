@@ -26,11 +26,7 @@ const About = () => {
         </div>
         <div
         className="container portfolio__container"
-        modules={[Pagination]}
-        spaceBetween={40}
-        slidesPerView={2}
-        navigation
-        pagination={{ clickable: true }}
+        
       
       >
         <article className="portfolio__item">

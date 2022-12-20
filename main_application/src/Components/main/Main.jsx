@@ -2,6 +2,18 @@ import React from 'react'
 import './Main.css'
 
 
+// import Swiper core and required modules
+//import { Pagination ,Navigation} from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
 const Main = () => {
   return (
     <section id='Main'>
@@ -35,6 +47,30 @@ const Main = () => {
           </div>
           <div className="yt_videos">
             <h4>Youtube videos</h4>
+            <div className="marquee_div">
+            <marquee id="rightContainer_ContentTable2_panel3" align="justify" direction="up" onmouseout="this.start()" height="200px" onmouseover="this.stop()" scrollamount="1" scrolldelay="60">
+              <div className="site1">
+              <p align = "justify">
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">Google</a>
+              </p>
+              </div>
+              <div className="site1">
+              <p align = "justify">
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">Google</a>
+              </p>
+              </div>
+              <div className="site1">
+              <p align = "justify">
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">Google</a>
+              </p>
+              </div>
+              <div className="site1">
+              <p align = "justify">
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">Google</a>
+              </p>
+              </div>
+            </marquee>
+            </div>
           </div>
           <div className="Projects">
             <h4>Projects</h4>
