@@ -19,3 +19,25 @@
     text-align: center;
     margin: auto;
 }
+
+.marquee_div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+}
+
+.site1{
+    margin: auto;
+    padding: 10px;
+}
+
+.site1 p{
+    border: 2px solid red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
