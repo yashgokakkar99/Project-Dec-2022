@@ -2,6 +2,18 @@ import React from "react";
 import "./Main.css";
 import sampleimg from '../../assets/suggestion.png';
 
+// import Swiper core and required modules
+//import { Pagination ,Navigation} from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
 const Main = () => {
   return (
     <section id="Main">
@@ -48,6 +60,7 @@ const Main = () => {
                 </p>
               </div>
             </marquee>
+
           </div>
         </div>
         <div className="yt_videos">

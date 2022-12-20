@@ -16,6 +16,7 @@ const About = () => {
           ea saepe neque quis quasi aliquid rem atque praesentium optio illum?
         </p>
 
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
           mollitia saepe <br></br>
