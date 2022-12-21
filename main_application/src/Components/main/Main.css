@@ -83,3 +83,118 @@
     width: 90%;
     margin: auto;
 }
+
+.roadmap_con{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+}
+
+.road_img{
+    border: 2px solid red;
+    height: 190px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.road_img img{
+    height: 190px;
+    width: 70%;
+}
+
+
+
+.button{
+    border: 2px solid red;
+    height: 30px;
+    background-color: aqua;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.button a{
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.btn{
+    border: 2px solid red;
+}
+
+.project_con{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+}
+
+.suggest_con{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+}
+
+.level5{
+    border: 2px solid red;
+    height: 45px;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(223, 19, 19);
+    border-radius: 20px;
+}
+
+.level4{
+    border: 2px solid red;
+    height: 45px;
+    width: 85%;
+    margin: auto;
+    background-color: rgb(223, 131, 19);
+    border-radius: 20px;
+}
+
+.level3{
+    border: 2px solid red;
+    height: 45px;
+    width: 75%;
+    margin: auto;
+    background-color: rgb(189, 223, 19);
+    border-radius: 20px;
+}
+
+.level2{
+    border: 2px solid red;
+    height: 45px;
+    width: 65%;
+    margin: auto;
+    background-color: rgb(118, 223, 19);
+    border-radius: 20px;
+}
+
+.level1{
+    border: 2px solid red;
+    height: 45px;
+    width: 55%;
+    margin: auto;
+    background-color: rgb(91, 223, 19);
+    border-radius: 20px;
+}

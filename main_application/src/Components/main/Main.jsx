@@ -2,6 +2,7 @@ import React from "react";
 import "./Main.css";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
+import road_im from "../../assets/Images/road-map.png";
 
 const Main = () => {
   return (
@@ -100,9 +101,34 @@ const Main = () => {
         </div>
         <div className="Projects">
           <h4>Projects</h4>
+          <div className="project_con">
+            <div className="level5">
+              <h4>Project 5</h4>
+            </div>
+            <div className="level4">
+            <h4>Project 4</h4>
+            </div>
+            <div className="level3">
+            <h4>Project 3</h4>
+            </div>
+            <div className="level2">
+            <h4>Project 2</h4>
+            </div>
+            <div className="level1">
+            <h4>Project 1</h4>
+            </div>
+          </div>
         </div>
         <div className="Roadmap">
           <h4>Roadmap</h4>
+          <div className="roadmap_con">
+            <div className="road_img">
+              <img src={road_im}></img>
+            </div>
+            <div className="button">
+              <a href="">Get the road map</a>
+            </div>
+          </div>
         </div>
 
         <div className="Courses">
@@ -147,6 +173,7 @@ const Main = () => {
 
         <div className="Suggestion_form">
           <h4>Suggestions form</h4>
+          <div className="suggest_con"></div>
         </div>
       </div>
     </section>
