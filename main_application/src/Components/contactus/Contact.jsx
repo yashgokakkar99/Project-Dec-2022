@@ -24,11 +24,15 @@ const Contact = () => {
   return (
     <section id='contact'>
     
-    <h5>Get in touch</h5>
-    <h2>Contact me</h2>
+    {/* <h5>Get in touch</h5> */}
+    {/* <h2>Contact me</h2> */}
 
     <div className='container contact__container'>
+    {/* <h2>Contact me</h2> */}
+
       <div className='contact__options'>
+      <h2>Contact me</h2>
+
         <article className='contact__option'>
           <BsMailbox/>
           <h4>Email</h4>
