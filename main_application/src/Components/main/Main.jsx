@@ -1,9 +1,7 @@
 import React from "react";
 import "./Main.css";
-import sampleimg from '../../assets/suggestion.png';
-import sampleimg1 from '../../assets/Images/android.png'
-
-
+import sampleimg from "../../assets/suggestion.png";
+import sampleimg1 from "../../assets/Images/android.png";
 
 const Main = () => {
   return (
@@ -19,7 +17,7 @@ const Main = () => {
               onmouseout="this.start()"
               height="200px"
               onmouseover="this.stop()"
-              scrollamount="1"
+              scrollamount="3"
               scrolldelay="60"
             >
               <div className="site1">
@@ -51,38 +49,51 @@ const Main = () => {
                 </p>
               </div>
             </marquee>
-
           </div>
-
-
         </div>
         <div className="yt_videos">
-        <h4>Youtube videos</h4>
+          <h4>Youtube videos</h4>
           <div className="img_marquee">
             <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
-              direction="right"
+              direction="up"
               onmouseout="this.start()"
               height="200px"
               onmouseover="this.stop()"
-              scrollamount="2"
-              scrolldelay="30"
+              scrollamount="4"
+              scrolldelay="5"
             >
               <div className="yt1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg}/></a>
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={sampleimg} />
+                  </a>
+                </p>
               </div>
 
               <div className="yt1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg1}/></a>
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={sampleimg1} />
+                  </a>
+                </p>
               </div>
 
               <div className="yt1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg}/></a>
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={sampleimg} />
+                  </a>
+                </p>
               </div>
 
               <div className="yt1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg}/></a>
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={sampleimg} />
+                  </a>
+                </p>
               </div>
             </marquee>
           </div>
@@ -94,45 +105,50 @@ const Main = () => {
           <h4>Roadmap</h4>
         </div>
 
-
         <div className="Courses">
           <h4>Courses</h4>
-          <div className="img_marquee">
+          <div className="course_marquee">
             <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
-              direction="right"
+              direction="down"
               onmouseout="this.start()"
               height="200px"
               onmouseover="this.stop()"
-              scrollamount="1"
-              scrolldelay="60"
+              scrollamount="4"
+              scrolldelay="10"
             >
               <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg}/></a>
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <img className="im1" src={sampleimg} />
+                </a>
               </div>
 
               <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg1}/></a>
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <img className="im1" src={sampleimg1} />
+                </a>
               </div>
 
               <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg}/></a>
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <img className="im1" src={sampleimg} />
+                </a>
               </div>
 
               <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8"><img className="im1" src={sampleimg}/></a>
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <img className="im1" src={sampleimg} />
+                </a>
               </div>
             </marquee>
-            </div>
+          </div>
         </div>
-
 
         <div className="Suggestion_form">
           <h4>Suggestions form</h4>
         </div>
       </div>
-      
     </section>
   );
 };
