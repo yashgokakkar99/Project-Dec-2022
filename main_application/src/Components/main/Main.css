@@ -200,17 +200,7 @@
     background-color: rgb(91, 223, 19);
     border-radius: 20px;
 }
-
-.circle {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    border-radius: 50%;
-    justify-content: center;
-    
-  }
-      
+  
 .texts {
         margin-top: 5rem;
         text-align: center;
