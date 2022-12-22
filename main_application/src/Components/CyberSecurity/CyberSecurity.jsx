@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react'
+import './CyberSecurity.css'
+
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
 
-const Andro = () => {
+
+const CyberSecurity = () => {
   return (
     <div>
       <section id="Main">
@@ -24,7 +27,7 @@ const Andro = () => {
                 <div className="site1">
                   <p align="justify">
                     <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Android
+                      Cyber Security
                     </a>
                   </p>
                 </div>
@@ -194,7 +197,7 @@ const Andro = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Andro;
+export default CyberSecurity
