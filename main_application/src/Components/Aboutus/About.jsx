@@ -6,9 +6,9 @@ import IMG2 from "../../assets/Ashutosh_profile.jpg";
 const About = () => {
   return (
     <section id="About">
-      
+      <h2>About us</h2>
       <div className="about__text">
-        <h2>About Us</h2>
+        <h3>VISION</h3>
 
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
@@ -28,21 +28,13 @@ const About = () => {
       <div className="portfolio__container">
           <div className="portfolio_img">
             <img src={IMG1} alt="" />
-            <h3>YASH GOKKAKAR</h3>
-            <a href="https://linktr.ee/yash_gokakkar" target="_blank" className="btn">
-              Connect
-            </a>
             <a href="https://linktr.ee/yash_gokakkar" target="_blank" className="btn">
               Connect
             </a>
           </div>
           <div className="portfolio_img">
             <img src={IMG2} alt="" />
-            <h3> ASHUTOSH RAJ GUPTA </h3>
             <a href="https://linktr.ee/ashu_2643" target="_blank" className="btn">
-              Connect
-            </a>
-            <a href="https://linktr.ee/yash_gokakkar" target="_blank" className="btn">
               Connect
             </a>
         </div>

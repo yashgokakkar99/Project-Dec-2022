@@ -2,15 +2,13 @@ h2{
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    
 }
 
 .container.contact__container{
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
-    gap :24%;
-    /* border:2px solid red; */
+    gap :24%
 }
 
 .contact__options{
@@ -19,10 +17,6 @@ h2{
     gap: 1.2rem;
 }
 
-.contact__options h2{
-    margin: auto;
-    margin-top: 40px;
-}
 .contact__option{
     background: var(--color-bg-variant);
     padding:1.2rem;
@@ -51,18 +45,16 @@ form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    margin-top: 6rem;
 }
 
 input,textarea{
     width: 100%;
-    padding: 3rem;
+    padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: aliceblue;
-    margin: auto;
 }
 
 .btn{

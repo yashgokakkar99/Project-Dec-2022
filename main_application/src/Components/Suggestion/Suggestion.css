@@ -27,14 +27,6 @@ h2{
     text-align: center;
     border: 1px solid transparent;
 }
-
-.suggestion__option h3{
-    font-size: 1.4rem;
-    margin-top: 20px;
-    margin-bottom: 3rem;
-}
-
-
 .suggestion-img{
     height: 350px;
     width: 350px;
@@ -84,7 +76,6 @@ select{
 .btn{
     width:max-content;
     display: inline-block;
-    
     color:var(--color-primary);
     padding:0.75rem 1rem;
     border-radius: 0.4rem;
@@ -101,7 +92,6 @@ select{
   }
   
   .btn-primary{
-    
     background: var(--color-primary);
     color:var(--color-bg);
   

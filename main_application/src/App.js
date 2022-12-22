@@ -7,7 +7,6 @@ import Footer from './Components/Footer/Footer';
 import Suggestion from './Components/Suggestion/Suggestion'
 import Navbar from './Components/Navbar/Navbar';
 
-
 function App() {
   return (
     <div className="App">
@@ -18,7 +17,6 @@ function App() {
       <About/>
       <Suggestion/>
       <Contact/>
-      
       <Footer/>
     </div>
   );

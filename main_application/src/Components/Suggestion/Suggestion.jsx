@@ -5,13 +5,11 @@ import IMG from '../../assets/suggestion.png'
 const Suggestion = () => {
   return (
     <section id="Suggestion">
-    {/* <h3>feedback and Suggestion are more important</h3>
-    <h2>Suggestion form</h2> */}
+    <h3>feedback and Suggestion are more important</h3>
+    <h2>Suggestion form</h2>
       <div className="container suggestion__container">
         
           <article className="suggestion__option">
-          {/* <h3>feedback and Suggestion are more important</h3> */}
-    <h3>Suggestion form</h3>
             <img  className='suggestion-img'
             src={IMG} alt=''/>
           </article>
@@ -62,13 +60,9 @@ const Suggestion = () => {
             placeholder="your feedback"
             required
           ></textarea>
-          <div className="btn__container">
           <button type="submit" className="btn btn-primary">
             Send message
           </button>
-          <button type="reset" className="btn btn-primary">Reset</button>
-          </div>
-          
         </form>
       </div>
     </section>

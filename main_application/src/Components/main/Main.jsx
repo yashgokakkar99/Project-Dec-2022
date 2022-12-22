@@ -106,16 +106,16 @@ const Main = () => {
               <h4>Project 5</h4>
             </div>
             <div className="level4">
-              <h4>Project 4</h4>
+            <h4>Project 4</h4>
             </div>
             <div className="level3">
-              <h4>Project 3</h4>
+            <h4>Project 3</h4>
             </div>
             <div className="level2">
-              <h4>Project 2</h4>
+            <h4>Project 2</h4>
             </div>
             <div className="level1">
-              <h4>Project 1</h4>
+            <h4>Project 1</h4>
             </div>
           </div>
         </div>
@@ -173,23 +173,7 @@ const Main = () => {
 
         <div className="Suggestion_form">
           <h4>Suggestions form</h4>
-
-          <div className="suggest_con">
-            <marquee
-              id="rightContainer_ContentTable2_panel3"
-              align="justify"
-              direction="up"
-              onmouseout="this.start()"
-              height="200px"
-              onmouseover="this.stop()"
-              scrollamount="3"
-              scrolldelay="60"
-            ></marquee>
-            <div className="texts">
-              {/* <p>Suggestion</p> */}
-              <a href='#Suggestion'> Suggestion</a>
-            </div>
-          </div>
+          <div className="suggest_con"></div>
         </div>
       </div>
     </section>
