@@ -18,13 +18,13 @@ import ML from "../ML/ML";
 import CyberSecurity from "../CyberSecurity/CyberSecurity";
 import Graphics from "../Graphics/Graphics";
 import { useState } from "react";
-import Dsa from "../Dsa/DSA";
+import DSA from "../DSA/DSA";
 
 const Home = () => {
   const components = [
     <Main />,
     <Backend />,
-    <Dsa />,
+    <DSA />,
     <Android />,
     <Cloud />,
     <AI />,

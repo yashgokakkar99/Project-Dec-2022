@@ -1,5 +1,6 @@
 footer{
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
+   background-color: rgb(140, 153, 215);
     padding: 2rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -54,8 +55,9 @@ footer a{
 }
 
 .footer__copyright{
-    margin-bottom: 2rem;
-    color: var(--color-bg);
+    margin-bottom: 1rem;
+    /* color: var(--color-bg); */
+    color: rgb(161, 33, 170);
 }
 
 .footer__copyright small{
