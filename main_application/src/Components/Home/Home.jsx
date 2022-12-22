@@ -12,11 +12,13 @@ import img9 from "../../assets/Images/graphics.png";
 import Main from "../main/Main.jsx";
 import Backend from "../Backend/Backend";
 import Dsa from "../Dsa/DSA";
+import Android from "../Andro/Andro";
+import Cloud from "../Cloud/Cloud";
 import { useState } from "react";
 
 const Home = () => {
   const components = [
-    <Main/>, <Backend/>, <Dsa/>
+    <Main/>, <Backend/>, <Dsa/>, <Android/>, <Cloud/>
   ]
   const [index, setIndex] = useState(0);
 
@@ -42,13 +44,13 @@ const Home = () => {
             <img className="image3" src={img3}></img>
           </div>
         </div>
-        <div className="rect4">
+        <div className="rect4" onClick={()=>setIndex(3)}>
           <h4>Android Dev</h4>
           <div className="i1">
             <img className="image4" src={img4}></img>
           </div>
         </div>
-        <div className="rect5">
+        <div className="rect5" onClick={()=>setIndex(4)}>
           <h4>Cloud computing</h4>
           <div className="i1">
             <img className="image5" src={img5}></img>
