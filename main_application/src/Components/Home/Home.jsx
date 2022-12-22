@@ -18,12 +18,12 @@ import ML from "../ML/ML";
 import CyberSecurity from "../CyberSecurity/CyberSecurity";
 import Graphics from "../Graphics/Graphics";
 import { useState } from "react";
-import DSA from "../DSA/DSA";
+import Dsa from "../Dsa/DSA";
 
 
 const Home = () => {
   const components = [
-    <Main/>, <Backend/>, <DSA/>, <Android/>, <Cloud/>,<AI/>,<ML/>,<CyberSecurity/>,<Graphics/>
+    <Main/>, <Backend/>, <Dsa/>, <Android/>, <Cloud/>,<AI/>,<ML/>,<CyberSecurity/>,<Graphics/>
   ]
   const [index, setIndex] = useState(0);
 
