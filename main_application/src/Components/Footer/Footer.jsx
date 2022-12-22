@@ -3,12 +3,14 @@ import './Footer.css'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsGithub} from 'react-icons/bs'
-
+import IMG from '../../assets/logo.png'
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer__logo'>Project</a>
+      <a href='#' className='footer__logo'>
+        MAP2CAREER
+      </a>
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
