@@ -15,7 +15,7 @@ import Android from "../Andro/Andro";
 import Cloud from "../Cloud/Cloud";
 import AI from "../AI/AI";
 import ML from "../ML/ML";
-// import cyber from "../cyber/cyber";
+import CyberSecurity from "../CyberSecurity/CyberSecurity";
 import Graphics from "../Graphics/Graphics";
 import { useState } from "react";
 import DSA from "../DSA/DSA";
@@ -23,7 +23,7 @@ import DSA from "../DSA/DSA";
 
 const Home = () => {
   const components = [
-    <Main/>, <Backend/>, <DSA/>, <Android/>, <Cloud/>,<AI/>,<ML/>,<Graphics/>
+    <Main/>, <Backend/>, <DSA/>, <Android/>, <Cloud/>,<AI/>,<ML/>,<CyberSecurity/>,<Graphics/>
   ]
   const [index, setIndex] = useState(0);
 
