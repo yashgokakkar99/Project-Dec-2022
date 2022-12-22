@@ -9,18 +9,27 @@ import img6 from "../../assets/Images/cyber.png";
 import img7 from "../../assets/Images/ai.png";
 import img8 from "../../assets/Images/ml.png";
 import img9 from "../../assets/Images/graphics.png";
+import Main from "../main/Main.jsx";
+import Backend from "../Backend/Backend";
+import { useState } from "react";
 
 const Home = () => {
+  const components = [
+    <Main/>, <Backend/>
+  ]
+  const [index, setIndex] = useState(0);
+
   return (
+    <>
     <section id="Home">
       <div className="maindiv">
-        <div className="rect1">
+        <div className="rect1" onClick={()=>setIndex(0)}>
           <h4>Front-end</h4>
           <div className="i1">
             <img className="image1" src={img1}></img>
           </div>
         </div>
-        <div className="rect2">
+        <div className="rect2" onClick={()=>setIndex(1)}>
           <h4>Backend</h4>
           <div className="i1">
             <img className="image2" src={img2}></img>
@@ -70,6 +79,8 @@ const Home = () => {
         </div>
       </div>
     </section>
+    {components[index]}
+    </>
   );
 };
 

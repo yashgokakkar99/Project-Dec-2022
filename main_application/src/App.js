@@ -18,7 +18,6 @@ function App() {
       <About/>
       <Suggestion/>
       <Contact/>
-      
       <Footer/>
     </div>
   );
