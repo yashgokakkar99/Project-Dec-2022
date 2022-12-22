@@ -7,14 +7,16 @@
     row-gap: 30px;
     padding: 1.875rem;
     height: 100vh;
+   
 }
 
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
-    border: 5px solid red;
+    border: 5px solid rgb(145, 111, 230);
     background-color: white;
     color: black;
     border-radius: 2.188rem;
     height: 300px;
+
 }
 
 .offi_websites h4,.yt_videos h4,.Projects h4,.Roadmap h4,.Courses h4,.Suggestion_form h4{
@@ -26,7 +28,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    border: 2px solid red;
+    border: 2px solid rgb(131, 140, 230);
     border-radius: 20px;
     height: 85%;
     width: 90%;
@@ -39,7 +41,7 @@
 }
 
 .site1 p{
-    border: 2px solid red;
+    border: 2px solid rgb(165, 179, 245);
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
 }
@@ -49,7 +51,7 @@
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
+    border: 2px solid rgb(78, 82, 186);
     border-radius: 20px;
     height: 85%;
     width: 90%;
@@ -77,7 +79,7 @@
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
+    border: 2px solid rgb(176, 60, 218);
     border-radius: 20px;
     height: 85%;
     width: 90%;
@@ -89,7 +91,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
+    border: 2px solid rgb(95, 136, 231);
     border-radius: 20px;
     height: 85%;
     width: 90%;
@@ -97,7 +99,7 @@
 }
 
 .road_img{
-    border: 2px solid red;
+    border: 2px solid rgb(100, 70, 182);
     height: 190px;
     width: 95%;
     margin: auto;
@@ -112,9 +114,9 @@
 
 
 .button{
-    border: 2px solid red;
+    border: 2px solid rgb(30, 25, 111);
     height: 30px;
-    background-color: aqua;
+    background-color: rgb(200, 186, 237);
     width: 95%;
     margin: auto;
     border-radius: 20px;
@@ -129,13 +131,13 @@
 }
 
 .btn{
-    border: 2px solid red;
+    border: 2px solid rgb(106, 102, 236);
 }
 
 .project_con{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    border: 2px solid rgb(29, 18, 111);
     border-radius: 20px;
     height: 85%;
     width: 90%;
@@ -147,7 +149,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
+    border: 2px solid rgb(55, 64, 110);
     border-radius: 20px;
     height: 85%;
     width: 90%;
@@ -164,7 +166,7 @@
 }
 
 .level4{
-    border: 2px solid red;
+    border: 2px solid rgb(42, 42, 155);
     height: 45px;
     width: 85%;
     margin: auto;
@@ -198,3 +200,18 @@
     background-color: rgb(91, 223, 19);
     border-radius: 20px;
 }
+  
+.texts {
+        margin-top: 5rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        border-radius: 18rem;
+        border: 2px solid transparent;
+        border-color: rgb(51, 70, 155);
+        height: 70%;
+        width: 80%;
+        padding-top:4rem;
+        padding-bottom:5rem;
+        margin-left: 3rem;
+        font-size: 25px;
+      }
