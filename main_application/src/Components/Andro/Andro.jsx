@@ -24,7 +24,7 @@ const Andro = () => {
                 <div className="site1">
                   <p align="justify">
                     <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                      Android
                     </a>
                   </p>
                 </div>

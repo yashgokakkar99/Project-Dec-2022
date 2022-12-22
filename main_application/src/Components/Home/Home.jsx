@@ -11,14 +11,19 @@ import img8 from "../../assets/Images/ml.png";
 import img9 from "../../assets/Images/graphics.png";
 import Main from "../main/Main.jsx";
 import Backend from "../Backend/Backend";
-import Dsa from "../Dsa/DSA";
 import Android from "../Andro/Andro";
 import Cloud from "../Cloud/Cloud";
+import AI from "../AI/AI";
+import ML from "../ML/ML";
+// import cyber from "../cyber/cyber";
+import Graphics from "../Graphics/Graphics";
 import { useState } from "react";
+import DSA from "../DSA/DSA";
+
 
 const Home = () => {
   const components = [
-    <Main/>, <Backend/>, <Dsa/>, <Android/>, <Cloud/>
+    <Main/>, <Backend/>, <DSA/>, <Android/>, <Cloud/>,<AI/>,<ML/>,<Graphics/>
   ]
   const [index, setIndex] = useState(0);
 
@@ -56,25 +61,25 @@ const Home = () => {
             <img className="image5" src={img5}></img>
           </div>
         </div>
-        <div className="rect6">
+        <div className="rect6" onClick={()=>setIndex(5)}>
           <h4>AI</h4>
           <div className="i1">
             <img className="image6" src={img6}></img>
           </div>
         </div>
-        <div className="rect7">
+        <div className="rect7" onClick={()=>setIndex(6)}>
           <h4>ML</h4>
           <div className="i1">
             <img className="image7" src={img7}></img>
           </div>
         </div>
-        <div className="rect8">
+        <div className="rect8" onClick={()=>setIndex(7)}>
           <h4>Cyber security</h4>
           <div className="i1">
             <img className="image8" src={img8}></img>
           </div>
         </div>
-        <div className="rect9">
+        <div className="rect9" onClick={()=>setIndex(8)}>
           <h4>Graphics design</h4>
           <div className="i1">
             <img className="image9" src={img9}></img>
