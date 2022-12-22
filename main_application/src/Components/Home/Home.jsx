@@ -11,11 +11,12 @@ import img8 from "../../assets/Images/ml.png";
 import img9 from "../../assets/Images/graphics.png";
 import Main from "../main/Main.jsx";
 import Backend from "../Backend/Backend";
+import Dsa from "../Dsa/DSA";
 import { useState } from "react";
 
 const Home = () => {
   const components = [
-    <Main/>, <Backend/>
+    <Main/>, <Backend/>, <Dsa/>
   ]
   const [index, setIndex] = useState(0);
 
@@ -35,7 +36,7 @@ const Home = () => {
             <img className="image2" src={img2}></img>
           </div>
         </div>
-        <div className="rect3">
+        <div className="rect3" onClick={()=>setIndex(2)}>
           <h4>DSA</h4>
           <div className="i1">
             <img className="image3" src={img3}></img>
