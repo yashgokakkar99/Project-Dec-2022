@@ -20,74 +20,135 @@ import Graphics from "../Graphics/Graphics";
 import { useState } from "react";
 import Dsa from "../Dsa/DSA";
 
-
 const Home = () => {
   const components = [
-    <Main/>, <Backend/>, <Dsa/>, <Android/>, <Cloud/>,<AI/>,<ML/>,<CyberSecurity/>,<Graphics/>
-  ]
+    <Main />,
+    <Backend />,
+    <Dsa />,
+    <Android />,
+    <Cloud />,
+    <AI />,
+    <ML />,
+    <CyberSecurity />,
+    <Graphics />,
+  ];
   const [index, setIndex] = useState(0);
 
   return (
     <>
-    <section id="Home">
-      <div className="maindiv">
-        <div className="rect1" onClick={()=>setIndex(0)}>
-          <h4>Front-end</h4>
-          <div className="i1">
-            <img className="image1" src={img1}></img>
+      <section id="Home">
+        <div className="maindiv">
+          <div className="rect1">
+            <h4>Front-end</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image1"
+                  src={img1}
+                  onClick={() => setIndex(0)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect2">
+            <h4>Backend</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image2"
+                  src={img2}
+                  onClick={() => setIndex(1)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect3">
+            <h4>DSA</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image3"
+                  src={img3}
+                  onClick={() => setIndex(2)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect4">
+            <h4>Android Dev</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image4"
+                  src={img4}
+                  onClick={() => setIndex(3)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect5">
+            <h4>Cloud computing</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image5"
+                  src={img5}
+                  onClick={() => setIndex(4)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect6">
+            <h4>AI</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image6"
+                  src={img6}
+                  onClick={() => setIndex(5)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect7">
+            <h4>ML</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image7"
+                  src={img7}
+                  onClick={() => setIndex(6)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect8">
+            <h4>Cyber security</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image8"
+                  src={img8}
+                  onClick={() => setIndex(7)}
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="rect9">
+            <h4>Graphics design</h4>
+            <div className="i1">
+              <a href="#Main">
+                <img
+                  className="image9"
+                  src={img9}
+                  onClick={() => setIndex(8)}
+                ></img>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="rect2" onClick={()=>setIndex(1)}>
-          <h4>Backend</h4>
-          <div className="i1">
-            <img className="image2" src={img2}></img>
-          </div>
-        </div>
-        <div className="rect3" onClick={()=>setIndex(2)}>
-          <h4>DSA</h4>
-          <div className="i1">
-            <img className="image3" src={img3}></img>
-          </div>
-        </div>
-        <div className="rect4" onClick={()=>setIndex(3)}>
-          <h4>Android Dev</h4>
-          <div className="i1">
-            <img className="image4" src={img4}></img>
-          </div>
-        </div>
-        <div className="rect5" onClick={()=>setIndex(4)}>
-          <h4>Cloud computing</h4>
-          <div className="i1">
-            <img className="image5" src={img5}></img>
-          </div>
-        </div>
-        <div className="rect6" onClick={()=>setIndex(5)}>
-          <h4>AI</h4>
-          <div className="i1">
-            <img className="image6" src={img6}></img>
-          </div>
-        </div>
-        <div className="rect7" onClick={()=>setIndex(6)}>
-          <h4>ML</h4>
-          <div className="i1">
-            <img className="image7" src={img7}></img>
-          </div>
-        </div>
-        <div className="rect8" onClick={()=>setIndex(7)}>
-          <h4>Cyber security</h4>
-          <div className="i1">
-            <img className="image8" src={img8}></img>
-          </div>
-        </div>
-        <div className="rect9" onClick={()=>setIndex(8)}>
-          <h4>Graphics design</h4>
-          <div className="i1">
-            <img className="image9" src={img9}></img>
-          </div>
-        </div>
-      </div>
-    </section>
-    {components[index]}
+      </section>
+      {components[index]}
     </>
   );
 };
