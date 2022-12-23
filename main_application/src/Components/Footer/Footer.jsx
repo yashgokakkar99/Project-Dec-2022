@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <a href='#' className='footer__logo'>
-        MAP2CAREER
+        map2proCoder
       </a>
 
       <ul className='permalinks'>

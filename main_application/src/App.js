@@ -8,13 +8,8 @@ import Suggestion from './Components/Suggestion/Suggestion'
 import Navbar from './Components/Navbar/Navbar';
 
 
-
-
-
-function App() {
-
+function App(){
   return (
-   
     <div className="App">
       <Navbar/>
       <Home/>
@@ -23,7 +18,7 @@ function App() {
       <Contact/>
       <Footer/>
     </div>
-  );
-}
+);
+  }
 
 export default App;
