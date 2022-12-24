@@ -32,12 +32,12 @@ const Contact = () => {
         {/* <h2>Contact me</h2> */}
 
         <div className="contact__options">
-          <h2>Contact me</h2>
+          <h2>Contact us</h2>
 
           <article className="contact__option">
             <BsMailbox />
             <h4>Email</h4>
-            <h4>ag2364443@gmail.com</h4>
+            <h4>map2proCoder@gmail.com</h4>
             <a href="mailto:map2procoder@gmail.com">Send a message</a>
           </article>
           <article className="contact__option">

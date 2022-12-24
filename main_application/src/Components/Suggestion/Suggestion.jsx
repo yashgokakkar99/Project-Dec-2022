@@ -1,21 +1,18 @@
 import React from "react";
 import "./Suggestion.css";
-import IMG from '../../assets/suggestion.png'
+import IMG from "../../assets/suggestion.png";
 
 const Suggestion = () => {
   return (
     <section id="Suggestion">
-    {/* <h3>feedback and Suggestion are more important</h3>
+      {/* <h3>feedback and Suggestion are more important</h3>
     <h2>Suggestion form</h2> */}
       <div className="container suggestion__container">
-        
-          <article className="suggestion__option">
+        <article className="suggestion__option">
           {/* <h3>feedback and Suggestion are more important</h3> */}
-    <h3>Suggestion form</h3>
-            <img  className='suggestion-img'
-            src={IMG} alt=''/>
-          </article>
-        
+          <h3>Suggestion form</h3>
+          <img className="suggestion-img" src={IMG} alt="" />
+        </article>
 
         <form action="">
           <label name="cars">Choose a Domain:</label>
@@ -25,12 +22,12 @@ const Suggestion = () => {
             <option value="dsa">DSA</option>
             <option value="android Dev">Android Dev</option>
             <option value="cloud computing">Cloud Computing</option>
-            <option value="artificial intelligence">Artificial Intelligence</option>
+            <option value="artificial intelligence">
+              Artificial Intelligence
+            </option>
             <option value="machine learning">Machine Learning</option>
             <option value="cyber security">Cyber Security</option>
             <option value="designing">Graphic design</option>
-            
-
           </select>
           <input
             type="text"
@@ -63,12 +60,13 @@ const Suggestion = () => {
             required
           ></textarea>
           <div className="btn__container">
-          <button type="submit" className="btn btn-primary">
-            Send message
-          </button>
-          <button type="reset" className="btn btn-primary">Reset</button>
+            <button type="submit" className="btn btn-primary">
+              Send message
+            </button>
+            <button type="reset" className="btn btn-primary">
+              Reset
+            </button>
           </div>
-          
         </form>
       </div>
     </section>
