@@ -7,7 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Suggestion from './Components/Suggestion/Suggestion'
 import Navbar from './Components/Navbar/Navbar';
 import {useState, useEffect} from 'react';
-
+import HashLoader from 'react-spinners/HashLoader'
 
 
 function App(){
@@ -21,7 +21,16 @@ function App(){
   return (
     <div className="App">
       {
-        
+        {
+        loading?
+        <HashLoader
+        color={'#D0021B'}
+        loading={loading}
+        size={150}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+        />
+      :
      <>
       <Navbar/>
       <Home/>
