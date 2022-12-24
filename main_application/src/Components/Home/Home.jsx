@@ -18,7 +18,7 @@ import ML from "../ML/ML";
 import CyberSecurity from "../CyberSecurity/CyberSecurity";
 import Graphics from "../Graphics/Graphics";
 import { useState } from "react";
-import DSA from "../Dsa/DSA";
+import DSA from "../DSA/DSA";
 
 const Home = () => {
   const components = [
