@@ -18,6 +18,7 @@ function App(){
       setLoading(false)
     },5000)
   },[])
+  const style = { position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
   return (
     <div className="App">
       {
@@ -28,7 +29,8 @@ function App(){
         size={150}
         aria-label="Loading Spinner"
         data-testid="loader"
-      />
+        style={style}
+        />
       :
       <>
       <Navbar/>
