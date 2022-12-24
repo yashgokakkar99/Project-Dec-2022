@@ -2,7 +2,26 @@ import React from "react";
 import "./Suggestion.css";
 import IMG from "../../assets/suggestion.png";
 
+
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
+
 const Suggestion = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_15grgu4",
+      "template_f65pi6v",
+      form.current,
+      "RN9xZpvtOlTv2jnjB"
+    );
+//emailjs.send("service_xo5coum","template_f65pi6v");
+    e.target.reset();
+  };
   return (
     <section id="Suggestion">
       {/* <h3>feedback and Suggestion are more important</h3>
@@ -14,8 +33,8 @@ const Suggestion = () => {
           <img className="suggestion-img" src={IMG} alt="" />
         </article>
 
-        <form action="">
-          <label name="cars">Choose a Domain:</label>
+        <form ref={form} onSubmit={sendEmail}>
+          <label name="Domains">Choose a Domain:</label>
           <select name="Domains" id="Domains">
             <option value="frontend">Frontend</option>
             <option value="backend">Backend</option>
