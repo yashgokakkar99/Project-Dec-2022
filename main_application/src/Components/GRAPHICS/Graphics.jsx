@@ -4,7 +4,14 @@ import './Graphics.css'
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
-
+import ytb1 from '../../assets/courses/gd/gd_yt1.png'
+import ytb2 from '../../assets/courses/gd/gd_yt2.png'
+import ytb3 from '../../assets/courses/gd/gd_yt3.png'
+import ytb4 from '../../assets/courses/gd/gd_yt4.png'
+import crs1 from '../../assets/courses/gd/gd_cr1.png'
+import crs2 from '../../assets/courses/gd/gd_cr2.png'
+import crs3 from '../../assets/courses/gd/gd_cr3.png'
+import crs4 from '../../assets/courses/gd/gd_cr4.png'
 
 const Graphics = () => {
   return (
@@ -26,29 +33,29 @@ const Graphics = () => {
               >
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Graphics Designing
+                    <a href="https://desygner.com/" target='_blank'>
+                      Desygner
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.figma.com/graphic-design-tool/" target='_blank'>
+                      Figma
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.adobe.com/products/photoshop.html" target='_blank'>
+                      Adobe Photoshop
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.canva.com/" target='_blank'>
+                      Canva
                     </a>
                   </p>
                 </div>
@@ -70,32 +77,32 @@ const Graphics = () => {
               >
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/playlist?list=PLYfCBK8IplO4E2sXtdKMVpKJZRBEoMvpn" target='_blank'>
+                      <img className="im1" src={ytb1} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg1} />
+                    <a href="https://www.youtube.com/playlist?list=PL0EqspLrOAxRX_IeXFX1jcaqHKCc45IJx" target='_blank'>
+                      <img className="im1" src={ytb2} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=YiLUYf4HDh4" target='_blank'>
+                      <img className="im1" src={ytb3} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=un50Bs4BvZ8" target='_blank'>
+                      <img className="im1" src={ytb4} />
                     </a>
                   </p>
                 </div>
@@ -129,7 +136,7 @@ const Graphics = () => {
                 <img src={road_im}></img>
               </div>
               <div className="button">
-                <a href="">Get the road map</a>
+                <a href="https://www.youtube.com/watch?v=vkSOIkNWCww" target='_blank'>Get the road map</a>
               </div>
             </div>
           </div>
@@ -148,26 +155,26 @@ const Graphics = () => {
                 scrolldelay="10"
               >
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.udemy.com/course/graphic-design/" target='_blank'>
+                    <img className="im1" src={crs1} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://in.coursera.org/specializations/graphic-design" target='_blank'>
+                    <img className="im1" src={crs2} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://in.upskillist.com/courses/design/online-graphic-design-course/" target='_blank'>
+                    <img className="im1" src={crs3} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.udemy.com/course/graphic-design-for-beginners/" target='_blank'>
+                    <img className="im1" src={crs4} />
                   </a>
                 </div>
               </marquee>

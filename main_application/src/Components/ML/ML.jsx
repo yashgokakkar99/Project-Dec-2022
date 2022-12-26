@@ -1,9 +1,16 @@
 import React from 'react'
 import './ML.css'
 
-import sampleimg from "../../assets/suggestion.png";
-import sampleimg1 from "../../assets/Images/android.png";
-import road_im from "../../assets/Images/road-map.png";
+import road_im from '../../assets/Images/road-map.png'
+import ytb1 from '../../assets/courses/ml/ml_yt_1.png'
+import ytb2 from '../../assets/courses/ml/ml_yt_2.png'
+import ytb3 from '../../assets/courses/ml/ml_yt_3.png'
+import ytb4 from '../../assets/courses/ml/ml_yt_4.png'
+import crs1 from '../../assets/courses/ml/ml_cr_1.png'
+import crs2 from '../../assets/courses/ml/ml_cr_2.png'
+import crs3 from '../../assets/courses/ml/ml_cr_3.png'
+import crs4 from '../../assets/courses/ml/ml_cr_4.png'
+
 
 const ML = () => {
   return (
@@ -25,29 +32,29 @@ const ML = () => {
               >
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      ML
+                    <a href="https://www.openml.org/" target='_blank'>
+                      Openml
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://machinehack.com/" target='_blank'>
+                      Machine Hack
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc" target='_blank'>
+                      Google Colab
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.tensorflow.org/" target='_blank'>
+                      TensorFlow
                     </a>
                   </p>
                 </div>
@@ -69,32 +76,32 @@ const ML = () => {
               >
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=GwIo3gDZCVQ" target='_blank'>
+                      <img className="im1" src={ytb1} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg1} />
+                    <a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" target='_blank'>
+                      <img className="im1" src={ytb2} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=NWONeJKn6kc" target='_blank'>
+                      <img className="im1" src={ytb3} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=7eh4d6sabA0" target='_blank'>
+                      <img className="im1" src={ytb4} />
                     </a>
                   </p>
                 </div>
@@ -128,7 +135,7 @@ const ML = () => {
                 <img src={road_im}></img>
               </div>
               <div className="button">
-                <a href="">Get the road map</a>
+                <a href="https://www.youtube.com/watch?v=y4o9hrSCDPI" target='_blank'>Get the road map</a>
               </div>
             </div>
           </div>
@@ -147,26 +154,26 @@ const ML = () => {
                 scrolldelay="10"
               >
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://developers.google.com/machine-learning/crash-course">
+                    <img className="im1" src={crs1} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://in.coursera.org/learn/machine-learning">
+                    <img className="im1" src={crs2} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://intellipaat.com/machine-learning-certification-training-course/">
+                    <img className="im1" src={crs3} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/">
+                    <img className="im1" src={crs4} />
                   </a>
                 </div>
               </marquee>

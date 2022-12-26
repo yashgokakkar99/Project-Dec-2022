@@ -4,7 +4,14 @@ import './CyberSecurity.css'
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
-
+import ytb1 from '../../assets/courses/cs/cs_yt1.png'
+import ytb2 from '../../assets/courses/cs/cs_yt2.png'
+import ytb3 from '../../assets/courses/cs/cs_yt3.png'
+import ytb4 from '../../assets/courses/cs/cs_yt4.png'
+import crs1 from '../../assets/courses/cs/cs_cr1.png'
+import crs2 from '../../assets/courses/cs/cs_cr2.png'
+import crs3 from '../../assets/courses/cs/cs_cr3.png'
+import crs4 from '../../assets/courses/cs/cs_cr4.png'
 
 const CyberSecurity = () => {
   return (
@@ -26,29 +33,29 @@ const CyberSecurity = () => {
               >
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Cyber Security
+                    <a href="https://www.cybrary.it/" target='_blank'>
+                      Cybrary
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.cisa.gov/cybersecurity" target='_blank'>
+                      CISA
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://cybercademy.org/training-platforms/" target='_blank'>
+                      CyberCademy
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content" target='_blank'>
+                      NIST
                     </a>
                   </p>
                 </div>
@@ -70,32 +77,32 @@ const CyberSecurity = () => {
               >
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=yr1Psapupsc" target='_blank'>
+                      <img className="im1" src={ytb1} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg1} />
+                    <a href="https://www.youtube.com/watch?v=nzZkKoREEGo&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=2" target='_blank'>
+                      <img className="im1" src={ytb2} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/playlist?list=PLQVJk9oC5JKq15cieChuOU9zFdf-FlnMi" target='_blank'>
+                      <img className="im1" src={ytb3} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/playlist?list=PLbqGQ5B2op8QfvAfHSpw5jn_Nv22JQuM-" target='_blank'>
+                      <img className="im1" src={ytb4} />
                     </a>
                   </p>
                 </div>
@@ -129,7 +136,7 @@ const CyberSecurity = () => {
                 <img src={road_im}></img>
               </div>
               <div className="button">
-                <a href="">Get the road map</a>
+                <a href="https://www.youtube.com/watch?v=nL2vHJ53Wr4" target='_blank'>Get the road map</a>
               </div>
             </div>
           </div>
@@ -148,26 +155,26 @@ const CyberSecurity = () => {
                 scrolldelay="10"
               >
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://in.coursera.org/specializations/intro-cyber-security" target='_blank'>
+                    <img className="im1" src={crs1} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/" target='_blank'>
+                    <img className="im1" src={crs2} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.futurelearn.com/courses/introduction-to-cyber-security" target='_blank'>
+                    <img className="im1" src={crs3} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://intellipaat.com/cyber-security-course-certification/" target='_blank'>
+                    <img className="im1" src={crs4} />
                   </a>
                 </div>
               </marquee>
