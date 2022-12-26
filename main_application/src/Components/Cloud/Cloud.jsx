@@ -175,32 +175,32 @@ const Cloud = () => {
               scrolldelay="10"
             >
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                <a href="https://www.udemy.com/course/getting-started-with-cloud-computing-level-1/">
                   <img className="im1" src={ct1} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                <a href="https://www.udemy.com/course/introduction-to-cloud-computing-with-amazon-web-services/">
                   <img className="im1" src={ct2} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                <a href="https://www.coursera.org/learn/cloud-computing?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-data-analytics_FTCOF_professional-certificates_PMax-arte-NRL_within_14D&utm_content=B2C&campaignid=19009611551&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo">
                   <img className="im1" src={ct3} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                <a href="https://in.coursera.org/specializations/microsoft-azure-fundamentals-az-900?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-it-support_FTCOF_professional-certificates_PMax-arte-NRL_greater_than_14D&utm_content=B2C&campaignid=18968559034&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo">
                   <img className="im1" src={ct4} />
                 </a>
               </div>
 
               
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                <a href="https://www.pluralsight.com/courses/cloud-computing-big-picture">
                   <img className="im1" src={ct5} />
                 </a>
               </div>
