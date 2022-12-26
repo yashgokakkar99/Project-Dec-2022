@@ -2,6 +2,18 @@ import React from 'react'
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
+import ut1 from "../../assets/yt/aws_full_edureka.jpg";
+import ut2 from "../../assets/yt/aws_full_simpli.jpg";
+import ut3 from "../../assets/yt/Greatlearning_cloud.jpg";
+import ut4 from "../../assets/yt/Kudvenkat_cloud.jpg";
+import ut5 from "../../assets/yt/simplilearn_cloud.jpg";
+import ut6 from "../../assets/yt/tutorialsPoint_cloud.jpg";
+import ut7 from "../../assets/yt/Univ_academy_cloud.jpg";
+import ct1 from "../../assets/courses/cloud_udemy.png";
+import ct2 from "../../assets/courses/cloud_udemy2.png";
+import ct3 from "../../assets/courses/coursera_cloud_2.png";
+import ct4 from "../../assets/courses/microsoftAzure_coursera.png";
+import ct5 from "../../assets/courses/pluralsight_cloud.png";
 
 
 const Cloud = () => {
@@ -62,7 +74,7 @@ const Cloud = () => {
               <div className="yt1">
                 <p align="justify">
                   <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                    <img className="im1" src={ut1} />
                   </a>
                 </p>
               </div>
@@ -70,7 +82,7 @@ const Cloud = () => {
               <div className="yt1">
                 <p align="justify">
                   <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                    <img className="im1" src={ut2} />
                   </a>
                 </p>
               </div>
@@ -78,7 +90,7 @@ const Cloud = () => {
               <div className="yt1">
                 <p align="justify">
                   <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                    <img className="im1" src={ut3} />
                   </a>
                 </p>
               </div>
@@ -86,7 +98,31 @@ const Cloud = () => {
               <div className="yt1">
                 <p align="justify">
                   <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                    <img className="im1" src={ut4} />
+                  </a>
+                </p>
+              </div>
+
+              <div className="yt1">
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={ut5} />
+                  </a>
+                </p>
+              </div>
+
+              <div className="yt1">
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={ut6} />
+                  </a>
+                </p>
+              </div>
+
+              <div className="yt1">
+                <p align="justify">
+                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                    <img className="im1" src={ut7} />
                   </a>
                 </p>
               </div>
@@ -140,25 +176,32 @@ const Cloud = () => {
             >
               <div className="cr1">
                 <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                  <img className="im1" src={ct1} />
                 </a>
               </div>
 
               <div className="cr1">
                 <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg1} />
+                  <img className="im1" src={ct2} />
                 </a>
               </div>
 
               <div className="cr1">
                 <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                  <img className="im1" src={ct3} />
                 </a>
               </div>
 
               <div className="cr1">
                 <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                  <img className="im1" src={ct4} />
+                </a>
+              </div>
+
+              
+              <div className="cr1">
+                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <img className="im1" src={ct5} />
                 </a>
               </div>
             </marquee>
