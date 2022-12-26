@@ -73,7 +73,7 @@ const Cloud = () => {
             >
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=k1RI5locZE4">
                     <img className="im1" src={ut1} />
                   </a>
                 </p>
@@ -81,7 +81,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=ZB5ONbD_SMY">
                     <img className="im1" src={ut2} />
                   </a>
                 </p>
@@ -89,7 +89,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=-8O32k26RWA">
                     <img className="im1" src={ut3} />
                   </a>
                 </p>
@@ -97,7 +97,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=A7h5wSlw3fg">
                     <img className="im1" src={ut4} />
                   </a>
                 </p>
@@ -105,7 +105,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=bRiatZMnkmA">
                     <img className="im1" src={ut5} />
                   </a>
                 </p>
@@ -113,7 +113,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=JBo2vV5SpOM">
                     <img className="im1" src={ut6} />
                   </a>
                 </p>
@@ -121,7 +121,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
+                  <a href="https://www.youtube.com/watch?v=0rrDqBIP2qU">
                     <img className="im1" src={ut7} />
                   </a>
                 </p>
