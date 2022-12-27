@@ -23,29 +23,85 @@ const Main = () => {
             >
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    frontend
+                  <a href="https://html.com/">
+                    HTML
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                    HTML | MDN
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://www.w3schools.com/html/8">
+                    HTML | w3schools
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                    CSS | MDN
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.w3schools.com/css/">
+                    CSS | w3schools
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.geeksforgeeks.org/css/">
+                    CSS | geeks for geeks
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScrip">
+                    Javascript | MDN
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.w3schools.com/js/">
+                    Javascript | w3schools
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.geeksforgeeks.org/javascript/">
+                    Javascript | geeks for geeks
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://reactjs.org/tutorial/tutorial.html">
+                    ReactJs
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.w3schools.com/REACT/DEFAULT.ASP">
+                    ReactJs | w3schools
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.geeksforgeeks.org/reactjs-tutorials/">
+                    ReactJs | geeks for geeks
                   </a>
                 </p>
               </div>

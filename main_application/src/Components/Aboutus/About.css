@@ -16,10 +16,14 @@
     text-align: center;
     margin-left: 14rem;
     margin-right: 12rem;
-    font-size: 20px;
+    font-size: 1rem;
     margin-bottom: 30px;
 }
 
+.hand{
+    height: 100px;
+    width: 100px;
+}
 
 .portfolio__container{
     display: flex;

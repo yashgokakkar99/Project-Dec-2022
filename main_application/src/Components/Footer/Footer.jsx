@@ -18,10 +18,8 @@ const Footer = () => {
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
-        <li><a href='#About'>About</a></li>
-        <li><a href='#Main'>main page</a></li>
-        <li><a href='#Suggestion'>Suggestion</a></li>
-        <li><a href='#contact'>Contact</a></li>
+        <li><a href='#About'>About us</a></li>
+        <li><a href='#contact'>Contact us</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -31,7 +29,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Application Made With Heart. All rights reserved.</small>
+        <small>Copyright &copy; map2proCoder 2023 | All rights reserved.</small>
       </div>
     </footer>
   )

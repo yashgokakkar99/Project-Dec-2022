@@ -2,6 +2,8 @@ import React from "react";
 import "./About.css";
 import IMG1 from "../../assets/yash_profile.jpg";
 import IMG2 from "../../assets/Ashutosh_profile.jpg";
+import Lottie from "lottie-react";
+import hand1 from "../../assets/lotties/handshake.json";
 
 const About = () => {
   return (
@@ -9,11 +11,9 @@ const About = () => {
       
       <div className="about__text">
         <h2>About Us</h2>
-
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          repellat harum similique cumque, recusandae aut maxime facilis enim ex
-          ea saepe neque quis quasi aliquid rem atque praesentium optio illum?
+          map2proCoder is developed to provide essential links to study material available online. So that any student start working towards
+          his/her career in Computer Science in various domains such as web dev, android dev, cloud computing, cyber security and many more.
         </p>
       </div>
       <div className="portfolio__container">
