@@ -7,7 +7,7 @@ import road_im from "../../assets/Images/road-map.png";
 const Main = () => {
   return (
     <section id="Main">
-      <div className="maindiv_content">
+      <div className="maindiv_content" id='yash_div'>
         <div className="offi_websites">
           <h4>Official websites</h4>
           <div className="marquee_div">

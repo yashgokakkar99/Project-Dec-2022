@@ -45,5 +45,7 @@
 @media only screen and (max-width:550px) {
     .maindiv{
         grid-template-columns: 1fr;
+        margin: auto;
     }
 }
+

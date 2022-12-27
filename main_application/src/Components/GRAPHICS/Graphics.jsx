@@ -16,8 +16,8 @@ import crs4 from '../../assets/courses/gd/gd_cr4.png'
 const Graphics = () => {
   return (
     <div>
-      <section id="Gra">
-        <div className="maindiv_content">
+      <section id="Main">
+        <div className="maindiv_content" id='yash_div'>
           <div className="offi_websites">
             <h4>Official websites</h4>
             <div className="marquee_div">

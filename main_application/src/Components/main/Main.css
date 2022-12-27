@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+
+
+#yash_div{
+    height: auto;
+}
+
 .maindiv_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -218,7 +224,7 @@
       }
 
 @media only screen and (max-width:550px) {
-    .maindiv_content{
+    #yash_div{
         grid-template-columns: 1fr;
     }
 }

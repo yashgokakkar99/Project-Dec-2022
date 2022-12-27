@@ -27,7 +27,7 @@ const Suggestion = () => {
     <section id="Suggestion">
       {/* <h3>feedback and Suggestion are more important</h3>
     <h2>Suggestion form</h2> */}
-      <div className="container suggestion__container">
+      <div className="container suggestion__container" id="yash_div">
         <article className="suggestion__option">
           {/* <h3>feedback and Suggestion are more important</h3> */}
           <h3>Suggestion form</h3>

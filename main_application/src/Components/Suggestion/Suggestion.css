@@ -16,7 +16,6 @@ h2{
     display: grid;
     grid-template-columns: 30% 58%;
     gap :24%;
-    margin-top: 1000px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -127,6 +126,9 @@ select{
     
 }
 
+#yash_div{
+    height: auto;
+}
 /* -----media queires for (medium devices)----- */
 @media screen and (max-width:600px){
     .container.suggestion__container{
@@ -134,3 +136,5 @@ select{
     }
     
 }
+
+
