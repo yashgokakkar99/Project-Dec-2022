@@ -6,8 +6,11 @@
     column-gap: 30px;
     row-gap: 30px;
     padding: 1.875rem;
-    height: 100vh;
    
+}
+
+#Gra{
+    height: auto;
 }
 
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
@@ -215,3 +218,9 @@
         margin-left: 3rem;
         font-size: 25px;
       }
+
+      @media only screen and (max-width:550px) {
+        #yash_div{
+            grid-template-columns: 1fr;
+        }
+    }

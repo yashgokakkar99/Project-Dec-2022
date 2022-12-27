@@ -16,7 +16,7 @@ import crs4 from '../../assets/courses/gd/gd_cr4.png'
 const Graphics = () => {
   return (
     <div>
-      <section id="Main">
+      <section id="Gra">
         <div className="maindiv_content">
           <div className="offi_websites">
             <h4>Official websites</h4>

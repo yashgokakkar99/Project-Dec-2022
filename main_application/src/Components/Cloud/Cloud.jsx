@@ -18,9 +18,9 @@ import ct5 from "../../assets/courses/pluralsight_cloud.png";
 
 const Cloud = () => {
   return (
-    <div className='outerContainer'>
+    // <di className='outerContainer'>
       <section id="Main">
-      <div className="maindiv_content">
+      <div className="maindiv_content" id='yash_div'>
         <div className="offi_websites">
           <h4>Official websites</h4>
           <div className="marquee_div">
@@ -231,7 +231,7 @@ const Cloud = () => {
         </div>
       </div>
     </section>
-    </div>
+    // </div>
   )
 }
 

@@ -31,9 +31,18 @@
 
 #About{
     height: auto;
+    margin-top: 1500px;
 }
 
 .portfolio_img{
+    height: auto;
+}
+
+.about__text{
+    height: auto;
+}
+
+.portfolio__container{
     height: auto;
 }
 

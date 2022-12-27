@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 .maindiv_content{
     display: grid;
@@ -7,18 +9,20 @@
     row-gap: 30px;
     padding: 1.875rem;
     height: 100vh;
-   
+    align-items: auto;
+    grid-auto-rows: 13rem;
 }
 #Main{
     margin-top: 200px;
     padding-top: 200px;
+    height: auto;
 }
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
     border: 5px solid rgb(145, 111, 230);
     background-color: white;
     color: black;
     border-radius: 2.188rem;
-    height: 300px;
+    height: 18.75rem;
 
 }
 
@@ -59,6 +63,7 @@
     height: 85%;
     width: 90%;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .yt1{
@@ -70,11 +75,15 @@
     height: 200px;
     width: 390px;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cr1{
     margin: auto;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .course_marquee{
@@ -87,6 +96,7 @@
     height: 85%;
     width: 90%;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .roadmap_con{
@@ -221,10 +231,11 @@
 
 .outerContainer{
     padding-top: 200px;
+    height: auto;
 }
 
 @media only screen and (max-width:550px) {
-    .maindiv_content{
+    #yash_div{
         grid-template-columns: 1fr;
     }
 }

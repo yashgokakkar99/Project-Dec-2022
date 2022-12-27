@@ -219,6 +219,6 @@
 
 @media only screen and (max-width:550px) {
     .maindiv_content{
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
     }
 }
