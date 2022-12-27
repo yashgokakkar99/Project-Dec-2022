@@ -13,17 +13,23 @@
     align-items: auto;
 }
 
+.lotty_all{
+    height: 10.5rem;
+    width: 13rem;
+}
+
 #Home{
     height: auto;
 }
 
 
 .rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8, .rect9{
-    border: 5px solid red;
-    background-color: white;
-    color: black;
+    border: 2px solid magenta;
+    background-color: #313150;
+    color: white;
     height: 13.625rem;
     border-radius: 2.188rem;
+    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
 }
 
 .rect1 h4,.rect2 h4,.rect3 h4,.rect4 h4,.rect5 h4,.rect6 h4,.rect7 h4,.rect8 h4,.rect9 h4{
@@ -40,6 +46,7 @@
 .i1{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width:550px) {

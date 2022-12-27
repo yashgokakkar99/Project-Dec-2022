@@ -10,7 +10,7 @@ const Main = () => {
       <div className="maindiv_content" id='yash_div'>
         <div className="offi_websites">
           <h4>Official websites</h4>
-          <div className="marquee_div">
+          { <div className="marquee_div">
             <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
@@ -50,7 +50,7 @@ const Main = () => {
                 </p>
               </div>
             </marquee>
-          </div>
+          </div> }
         </div>
         <div className="yt_videos">
           <h4>Youtube videos</h4>
