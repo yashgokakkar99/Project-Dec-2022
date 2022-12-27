@@ -35,6 +35,8 @@ h2{
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
+    height: 400px;
+    width: 480px;
 }
 
 .suggestion__option h3{
@@ -45,8 +47,9 @@ h2{
 
 
 .suggestion-img{
-    height: 350px;
-    width: 350px;
+    height: 330px;
+    width: 400px;
+    
 }
 
 

@@ -3,6 +3,7 @@ import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
 
+
 const Andro = () => {
   return (
     <div>

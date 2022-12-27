@@ -2,9 +2,11 @@ import React from "react";
 import "./Suggestion.css";
 import IMG from "../../assets/suggestion.png";
 
-
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+
+import Lottie from "lottie-react";
+import sug1 from "../../assets/lotties/suggest.json";
 
 /* Height auto */
 
@@ -20,7 +22,7 @@ const Suggestion = () => {
       form.current,
       "RN9xZpvtOlTv2jnjB"
     );
-//emailjs.send("service_xo5coum","template_f65pi6v");
+    //emailjs.send("service_xo5coum","template_f65pi6v");
     e.target.reset();
   };
   return (
@@ -31,7 +33,7 @@ const Suggestion = () => {
         <article className="suggestion__option">
           {/* <h3>feedback and Suggestion are more important</h3> */}
           <h3>Suggestion form</h3>
-          <img className="suggestion-img" src={IMG} alt="" />
+          <Lottie animationData={sug1}/>
         </article>
 
         <form ref={form} onSubmit={sendEmail}>
