@@ -8,13 +8,26 @@ footer{
     padding-bottom: 2rem;
 }
 
+#foot{
+    margin-top: 200px;
+}
+
+.logo_div{
+    margin: auto;
+}
+
+.logo_img{
+    height: 150px;
+    width: 200px;
+}
+
 footer a{
     color: var(--color-bg);
 }
 
 .footer__logo{
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 400;
     margin-bottom: 1rem;
     display: inline-block;
 }

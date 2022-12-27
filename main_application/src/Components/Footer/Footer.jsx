@@ -4,10 +4,14 @@ import {FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsGithub} from 'react-icons/bs'
 import IMG from '../../assets/logo.png'
+import logo from '../../assets/logo/map2procoder_logo.png';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='foot'>
+      <div className="logo_div">
+      <img src={logo} className="logo_img"></img>
+      </div>
       <a href='#' className='footer__logo'>
         map2proCoder
       </a>
