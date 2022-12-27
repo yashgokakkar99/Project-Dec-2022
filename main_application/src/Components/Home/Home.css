@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .maindiv{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,6 +12,11 @@
     padding-right: 1.875rem;
     align-items: auto;
 }
+
+#Home{
+    height: auto;
+}
+
 
 .rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8, .rect9{
     border: 5px solid red;
@@ -32,4 +40,10 @@
 .i1{
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width:550px) {
+    .maindiv{
+        grid-template-columns: 1fr;
+    }
 }

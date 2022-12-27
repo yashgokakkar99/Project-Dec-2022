@@ -6,6 +6,7 @@ import IMG from "../../assets/suggestion.png";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
+/* Height auto */
 
 const Suggestion = () => {
   const form = useRef();

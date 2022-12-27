@@ -2,6 +2,9 @@ h3{
     text-align: center;
     font-style: oblique;
 }
+#Suggestion{
+    height:auto;
+}
 
 h2{
     font-style: normal;
@@ -12,7 +15,8 @@ h2{
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
-    gap :24%
+    gap :24%;
+    margin-top: 1000px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

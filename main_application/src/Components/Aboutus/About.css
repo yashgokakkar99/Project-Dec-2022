@@ -29,7 +29,13 @@
     align-items: center;
 }
 
+#About{
+    height: auto;
+}
 
+.portfolio_img{
+    height: auto;
+}
 
 
 .portfolio_img img{
@@ -76,8 +82,16 @@
     flex-direction: row;
     margin-top: 5rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
+.about__text{
+    margin-top: 200px;
+}
+
+.about__text p{
+    font-size: 2vw;
+}
 /* -----media queires for (medium devices)----- */
 @media screen and (max-width:1024px){
     .portfolio__container{
@@ -89,7 +103,6 @@
 /* -----media queires for (medium devices)----- */
 @media screen and (max-width:600px){
     .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        flex-wrap: wrap;
     }
 }

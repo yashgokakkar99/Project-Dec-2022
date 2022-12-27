@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 .maindiv_content{
     display: grid;
@@ -7,7 +9,6 @@
     row-gap: 30px;
     padding: 1.875rem;
     height: 100vh;
-   
 }
 
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
@@ -215,3 +216,9 @@
         margin-left: 3rem;
         font-size: 25px;
       }
+
+@media only screen and (max-width:550px) {
+    .maindiv_content{
+        flex-wrap: wrap;
+    }
+}

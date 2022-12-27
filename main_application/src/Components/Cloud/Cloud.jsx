@@ -18,7 +18,7 @@ import ct5 from "../../assets/courses/pluralsight_cloud.png";
 
 const Cloud = () => {
   return (
-    <div>
+    <div className='outerContainer'>
       <section id="Main">
       <div className="maindiv_content">
         <div className="offi_websites">
@@ -28,29 +28,29 @@ const Cloud = () => {
               id="rightContainer_ContentTable2_panel3"
               align="justify"
               direction="up"
-              onmouseout="this.start()"
+              onMouseOut="this.start()"
               height="200px"
-              onmouseover="this.stop()"
+              onMouseOver="this.stop()"
               scrollamount="3"
               scrolldelay="60"
             >
               <div className="site1">
                 <p align="justify">
-                  <a href="https://cloud.google.com/">
+                  <a href="https://cloud.google.com/" target="_blank">
                     Google Cloud
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://aws.amazon.com/">
+                  <a href="https://aws.amazon.com/" target="_blank">
                     Amazon Web Services
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://azure.microsoft.com/en-in/ ">
+                  <a href="https://azure.microsoft.com/en-in/ " target="_blank">
                     Microsoft Azure
                   </a>
                 </p>
@@ -73,7 +73,7 @@ const Cloud = () => {
             >
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=k1RI5locZE4">
+                  <a href="https://www.youtube.com/watch?v=k1RI5locZE4" target="_blank">
                     <img className="im1" src={ut1} />
                   </a>
                 </p>
@@ -81,7 +81,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=ZB5ONbD_SMY">
+                  <a href="https://www.youtube.com/watch?v=ZB5ONbD_SMY" target="_blank">
                     <img className="im1" src={ut2} />
                   </a>
                 </p>
@@ -89,7 +89,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=-8O32k26RWA">
+                  <a href="https://www.youtube.com/watch?v=-8O32k26RWA" target="_blank">
                     <img className="im1" src={ut3} />
                   </a>
                 </p>
@@ -97,7 +97,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=A7h5wSlw3fg">
+                  <a href="https://www.youtube.com/watch?v=A7h5wSlw3fg" target="_blank">
                     <img className="im1" src={ut4} />
                   </a>
                 </p>
@@ -105,7 +105,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=bRiatZMnkmA">
+                  <a href="https://www.youtube.com/watch?v=bRiatZMnkmA" target="_blank">
                     <img className="im1" src={ut5} />
                   </a>
                 </p>
@@ -113,7 +113,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=JBo2vV5SpOM">
+                  <a href="https://www.youtube.com/watch?v=JBo2vV5SpOM" target="_blank">
                     <img className="im1" src={ut6} />
                   </a>
                 </p>
@@ -121,7 +121,7 @@ const Cloud = () => {
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.youtube.com/watch?v=0rrDqBIP2qU">
+                  <a href="https://www.youtube.com/watch?v=0rrDqBIP2qU" target="_blank">
                     <img className="im1" src={ut7} />
                   </a>
                 </p>
@@ -166,6 +166,7 @@ const Cloud = () => {
           <div className="course_marquee">
             <marquee
               id="rightContainer_ContentTable2_panel3"
+              behaviour="scroll"
               align="justify"
               direction="down"
               onmouseout="this.start()"
@@ -175,32 +176,32 @@ const Cloud = () => {
               scrolldelay="10"
             >
               <div className="cr1">
-                <a href="https://www.udemy.com/course/getting-started-with-cloud-computing-level-1/">
+                <a href="https://www.udemy.com/course/getting-started-with-cloud-computing-level-1/" target="_blank">
                   <img className="im1" src={ct1} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.udemy.com/course/introduction-to-cloud-computing-with-amazon-web-services/">
+                <a href="https://www.udemy.com/course/introduction-to-cloud-computing-with-amazon-web-services/" target="_blank">
                   <img className="im1" src={ct2} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.coursera.org/learn/cloud-computing?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-data-analytics_FTCOF_professional-certificates_PMax-arte-NRL_within_14D&utm_content=B2C&campaignid=19009611551&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo">
+                <a href="https://www.coursera.org/learn/cloud-computing?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-data-analytics_FTCOF_professional-certificates_PMax-arte-NRL_within_14D&utm_content=B2C&campaignid=19009611551&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo" target="_blank">
                   <img className="im1" src={ct3} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://in.coursera.org/specializations/microsoft-azure-fundamentals-az-900?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-it-support_FTCOF_professional-certificates_PMax-arte-NRL_greater_than_14D&utm_content=B2C&campaignid=18968559034&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo">
+                <a href="https://in.coursera.org/specializations/microsoft-azure-fundamentals-az-900?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-it-support_FTCOF_professional-certificates_PMax-arte-NRL_greater_than_14D&utm_content=B2C&campaignid=18968559034&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo" target="_blank">
                   <img className="im1" src={ct4} />
                 </a>
               </div>
 
               
               <div className="cr1">
-                <a href="https://www.pluralsight.com/courses/cloud-computing-big-picture">
+                <a href="https://www.pluralsight.com/courses/cloud-computing-big-picture" target="_blank">
                   <img className="im1" src={ct5} />
                 </a>
               </div>

@@ -9,7 +9,10 @@
     height: 100vh;
    
 }
-
+#Main{
+    margin-top: 200px;
+    padding-top: 200px;
+}
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
     border: 5px solid rgb(145, 111, 230);
     background-color: white;
@@ -215,3 +218,13 @@
         margin-left: 3rem;
         font-size: 25px;
       }
+
+.outerContainer{
+    padding-top: 200px;
+}
+
+@media only screen and (max-width:550px) {
+    .maindiv_content{
+        grid-template-columns: 1fr;
+    }
+}
