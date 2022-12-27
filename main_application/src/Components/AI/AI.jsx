@@ -1,9 +1,18 @@
 import React from 'react'
 import './AI.css'
 
-import sampleimg from "../../assets/suggestion.png";
-import sampleimg1 from "../../assets/Images/android.png";
+
 import road_im from "../../assets/Images/road-map.png";
+import ytb1 from '../../assets/courses/AI/ai_yt1.png';
+import ytb2 from '../../assets/courses/AI/ai_yt2.png'
+import ytb3 from '../../assets/courses/AI/ai_yt3.png'
+import ytb4 from '../../assets/courses/AI/ai_yt4.png'
+import crs1 from '../../assets/courses/AI/ai_cr1.png'
+import crs2 from '../../assets/courses/AI/ai_cr2.png'
+import crs3 from '../../assets/courses/AI/ai_cr3.png'
+import crs4 from '../../assets/courses/AI/ai_cr4.png'
+
+
 
 const AI = () => {
   return (
@@ -25,29 +34,29 @@ const AI = () => {
               >
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      AI
+                    <a href="https://ai.google/" target='_blank'>
+                       Google AI
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://www.nist.gov/artificial-intelligence" target='_blank'>
+                      NIST
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://indiaai.gov.in/" target='_blank'>
+                      Indiaai
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://research.ibm.com/artificial-intelligence" target='_blank'>
+                      Artificial intelligence -IBM
                     </a>
                   </p>
                 </div>
@@ -69,32 +78,32 @@ const AI = () => {
               >
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/watch?v=JMUxmLyrhSk" target='_blank'>
+                      <img className="im1" src={ytb1} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg1} />
+                    <a href="https://www.youtube.com/watch?v=lTzHlU3OrXs" target='_blank'>
+                      <img className="im1" src={ytb2} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/playlist?list=PLH2l6uzC4UEVGUu2--3xBjTMFily1IwP9" target='_blank'>
+                      <img className="im1" src={ytb3} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/playlist?list=PLkjZS1KzvTGGaTmv08sPS-6Ru4d_PXgXI" target='_blank'>
+                      <img className="im1" src={ytb4} />
                     </a>
                   </p>
                 </div>
@@ -128,7 +137,7 @@ const AI = () => {
                 <img src={road_im}></img>
               </div>
               <div className="button">
-                <a href="">Get the road map</a>
+                <a href="https://www.youtube.com/watch?v=I6BRHxNilMw" target='_blank'>Get the road map</a>
               </div>
             </div>
           </div>
@@ -147,26 +156,26 @@ const AI = () => {
                 scrolldelay="10"
               >
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://in.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai" target='_blank'>
+                    <img className="im1" src={crs1} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://in.coursera.org/learn/ai-for-everyone" target='_blank'>
+                    <img className="im1" src={crs2} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://intellipaat.com/artificial-intelligence-deep-learning-course-with-tensorflow/" target='_blank'>
+                    <img className="im1" src={crs3} />
                   </a>
                 </div>
 
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.udemy.com/course/artificial-intelligence-az/" target='_blank'>
+                    <img className="im1" src={crs4} />
                   </a>
                 </div>
               </marquee>
