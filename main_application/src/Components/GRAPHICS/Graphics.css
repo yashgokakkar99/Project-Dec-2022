@@ -186,23 +186,6 @@
   margin: auto;
 }
 
-.level5 {
-  border: 2px solid red;
-  height: 45px;
-  width: 95%;
-  margin: auto;
-  background-color: rgb(223, 19, 19);
-  border-radius: 20px;
-}
-
-.level4 {
-  border: 2px solid rgb(42, 42, 155);
-  height: 45px;
-  width: 85%;
-  margin: auto;
-  background-color: rgb(223, 131, 19);
-  border-radius: 20px;
-}
 
 .level3 {
   border: 2px solid red;

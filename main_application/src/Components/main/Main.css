@@ -18,11 +18,12 @@
 }
 
 .offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
-    border: 5px solid rgb(145, 111, 230);
-    background-color: white;
-    color: black;
-    border-radius: 2.188rem;
-    height: 300px;
+    border: 2px solid magenta;
+    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
+  background-color: #313150;
+  color: white;
+  border-radius: 2.188rem;
+  height: 300px;
 
 }
 

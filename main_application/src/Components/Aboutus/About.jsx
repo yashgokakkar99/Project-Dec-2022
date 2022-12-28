@@ -5,6 +5,7 @@ import IMG2 from "../../assets/Ashutosh_profile.jpg";
 import Lottie from "lottie-react";
 import hand1 from "../../assets/lotties/handshake.json";
 
+
 const About = () => {
   return (
     <section id="About">
@@ -24,7 +25,7 @@ const About = () => {
               Connect
             </a>
             <a href="https://linktr.ee/yash_gokakkar" target="_blank" className="btn">
-              Connect
+              Resume
             </a>
           </div>
           <div className="portfolio_img">
@@ -32,9 +33,12 @@ const About = () => {
             <h3> ASHUTOSH RAJ GUPTA </h3>
             <a href="https://linktr.ee/ashu_2643" target="_blank" className="btn">
               Connect
+    
             </a>
             <a href="https://linktr.ee/yash_gokakkar" target="_blank" className="btn">
-              Connect
+              Resume
+              
+              
             </a>
         </div>
       </div>
