@@ -23,29 +23,29 @@ const DSA = () => {
             >
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    DSA
+                  <a href="https://www.geeksforgeeks.org/data-structures/">
+                    DSA | geeks for geeks
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://www.w3schools.in/data-structures/intro">
+                    DSA | w3schools
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://www.javatpoint.com/data-structure-tutorial">
+                    DSA | Java T Point
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://www.programiz.com/dsa/data-structure-types">
+                    DSA | Programiz
                   </a>
                 </p>
               </div>

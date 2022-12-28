@@ -3,6 +3,15 @@ import "./Main.css";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
+import fron1 from "../../assets/yt/front1.jpg";
+import fron2 from "../../assets/yt/front2.jpg";
+import fron3 from "../../assets/yt/front3.jpg";
+import fron4 from "../../assets/yt/front4.jpg";
+import fron5 from "../../assets/yt/front5.jpg";
+import cfron1 from "../../assets/courses/cfron1.png";
+import cfron2 from "../../assets/courses/cfron2.png";
+import cfron3 from "../../assets/courses/cfron3.png";
+import cfron4 from "../../assets/courses/cfron4.png";
 
 const Main = () => {
   return (
@@ -30,77 +39,77 @@ const Main = () => {
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank">
                     HTML | MDN
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.w3schools.com/html/8">
+                  <a href="https://www.w3schools.com/html/8" target="blank">
                     HTML | w3schools
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank">
                     CSS | MDN
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.w3schools.com/css/">
+                  <a href="https://www.w3schools.com/css/" target="blank">
                     CSS | w3schools
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.geeksforgeeks.org/css/">
+                  <a href="https://www.geeksforgeeks.org/css/" target="blank">
                     CSS | geeks for geeks
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScrip">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScrip" target="blank">
                     Javascript | MDN
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.w3schools.com/js/">
+                  <a href="https://www.w3schools.com/js/" target="blank">
                     Javascript | w3schools
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.geeksforgeeks.org/javascript/">
+                  <a href="https://www.geeksforgeeks.org/javascript/" target="blank">
                     Javascript | geeks for geeks
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://reactjs.org/tutorial/tutorial.html">
+                  <a href="https://reactjs.org/tutorial/tutorial.html" target="blank">
                     ReactJs
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.w3schools.com/REACT/DEFAULT.ASP">
+                  <a href="https://www.w3schools.com/REACT/DEFAULT.ASP" target="blank">
                     ReactJs | w3schools
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.geeksforgeeks.org/reactjs-tutorials/">
+                  <a href="https://www.geeksforgeeks.org/reactjs-tutorials/" target="blank">
                     ReactJs | geeks for geeks
                   </a>
                 </p>
@@ -123,32 +132,41 @@ const Main = () => {
             >
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/@TraversyMedia/playlists" target="blank">
+                    <img className="im1" src={fron1} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://www.youtube.com/@funfunfunction/playlists" target="blank">
+                    <img className="im1" src={fron2} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://youtube.com/watch?v=pmKyG3NBY_k" target="blank">
+                    <img className="im1" src={fron3} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V" target="blank">
+                    <img className="im1" src={fron4} />
+                  </a>
+                </p>
+              </div>
+
+
+              <div className="yt1">
+                <p align="justify">
+                  <a href="https://www.youtube.com/@NetNinja/playlists" target="blank">
+                    <img className="im1" src={fron5} />
                   </a>
                 </p>
               </div>
@@ -201,26 +219,26 @@ const Main = () => {
               scrolldelay="10"
             >
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                <a href="https://egghead.io/courses/the-beginner-s-guide-to-react" target="blank">
+                  <img className="im1" src={cfron1} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg1} />
+                <a href="https://fireship.io/courses/js/" target="blank">
+                  <img className="im1" src={cfron2} />
+                </a>
+              </div>
+
+              <div className="cr1"> 
+                <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="blank">
+                  <img className="im1" src={cfron3} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
-                </a>
-              </div>
-
-              <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                <a href="https://frontendmasters.com/" target="blank">
+                  <img className="im1" src={cfron4} />
                 </a>
               </div>
             </marquee>

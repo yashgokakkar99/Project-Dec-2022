@@ -2,13 +2,17 @@ import React from "react";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
-
+import yand1 from "../../assets/yt/andro_kt1.jpg";
+import yand2 from "../../assets/yt/andro_cwh.jpg";
+import yand3 from "../../assets/yt/kotlin_steve.jpg";
+import yand4 from "../../assets/yt/andro_course.jpg";
+import cand1 from "../../assets/courses/andro_udemy.png";
 
 const Andro = () => {
   return (
     <div>
       <section id="Main">
-        <div className="maindiv_content" id='yash_div'>
+        <div className="maindiv_content" id="yash_div">
           <div className="offi_websites">
             <h4>Official websites</h4>
             <div className="marquee_div">
@@ -24,29 +28,22 @@ const Andro = () => {
               >
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Android
+                    <a href="https://developer.android.com/docs" target="blank">
+                      Android Developer Documentation
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://developer.android.com/" target="blank">
+                      Android Developer official
                     </a>
                   </p>
                 </div>
                 <div className="site1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
-                    </a>
-                  </p>
-                </div>
-                <div className="site1">
-                  <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      Google
+                    <a href="https://developer.android.com/courses/android-basics-kotlin/course" target="blank">
+                      Android Kotlin basics
                     </a>
                   </p>
                 </div>
@@ -68,32 +65,32 @@ const Andro = () => {
               >
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/@PhilippLackner/playlists" target="blank">
+                      <img className="im1" src={yand1} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg1} />
+                    <a href="https://youtube.com/watch?v=mXjZQX3UzOs" target="blank">
+                      <img className="im1" src={yand2} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href="https://www.youtube.com/@StevdzaSan" target="blank">
+                      <img className="im1" src={yand3} />
                     </a>
                   </p>
                 </div>
 
                 <div className="yt1">
                   <p align="justify">
-                    <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                      <img className="im1" src={sampleimg} />
+                    <a href=" https://www.youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1" target="blank">
+                      <img className="im1" src={yand4} />
                     </a>
                   </p>
                 </div>
@@ -146,26 +143,8 @@ const Andro = () => {
                 scrolldelay="10"
               >
                 <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
-                  </a>
-                </div>
-
-                <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
-                  </a>
-                </div>
-
-                <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
-                  </a>
-                </div>
-
-                <div className="cr1">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.udemy.com/course/android-kotlin-developer/" target="blank">
+                    <img className="im1" src={cand1} />
                   </a>
                 </div>
               </marquee>
