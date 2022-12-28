@@ -2,6 +2,12 @@ import React from 'react'
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
+import dsa1 from "../../assets/yt/dsa1.jpg";
+import dsa2 from "../../assets/yt/dsa2.jpg";
+import dsa3 from "../../assets/yt/dsa3.jpg";
+import dsa4 from "../../assets/yt/dsa4.jpg";
+import dsa5 from "../../assets/yt/dsa5.jpg";
+import cdsa1 from "../../assets/courses/cdsa1.png"
 
 const DSA = () => {
   return (
@@ -67,32 +73,40 @@ const DSA = () => {
             >
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi">
+                    <img className="im1" src={dsa1} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU">
+                    <img className="im1" src={dsa2} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f">
+                    <img className="im1" src={dsa3} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/watch?v=EAR7De6Goz4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz">
+                    <img className="im1" src={dsa4} />
+                  </a>
+                </p>
+              </div>
+
+              <div className="yt1">
+                <p align="justify">
+                  <a href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ">
+                    <img className="im1" src={dsa5} />
                   </a>
                 </p>
               </div>
@@ -145,28 +159,12 @@ const DSA = () => {
               scrolldelay="10"
             >
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                <a href="https://www.udemy.com/course/datastructurescncpp/">
+                  <img className="im1" src={cdsa1} />
                 </a>
               </div>
 
-              <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg1} />
-                </a>
-              </div>
-
-              <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
-                </a>
-              </div>
-
-              <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
-                </a>
-              </div>
+              
             </marquee>
           </div>
         </div>
