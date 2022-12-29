@@ -91,7 +91,7 @@ footer a{
     .footer__socials{
         margin-bottom: 2.5rem;
     }
-    .footer{
-        width: auto;
+    #foot{
+        width: 500px;
     }
 }
