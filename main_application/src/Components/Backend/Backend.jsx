@@ -2,6 +2,13 @@ import React from 'react'
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
+import cr1 from '../../assets/courses/backend/crs1.png';
+import cr2 from '../../assets/courses/backend/crs2.png';
+import cr3 from '../../assets/courses/backend/crs3.png';
+import ytb1 from '../../assets/courses/backend/yt1.png';
+import ytb2 from '../../assets/courses/backend/yt2.png';
+import ytb3 from '../../assets/courses/backend/yt3.png';
+import ytb4 from '../../assets/courses/backend/yt4.png';
 
 const Backend = () => {
   return (
@@ -23,29 +30,43 @@ const Backend = () => {
             >
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Yash Gokakkar
+                  <a href="https://node-postgres.com/" target='_blank'>
+                    postgress
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://www.mysql.com/" target='_blank'>
+                    MySQL
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://mongoosejs.com/docs/" target='_blank'>
+                    MongoDB
                   </a>
                 </p>
               </div>
               <div className="site1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    Google
+                  <a href="https://expressjs.com/" target='_blank'>
+                    Express
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.djangoproject.com/" target='_blank'>
+                    Django
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://go.dev/doc/tutorial/web-service-gin" target='_blank'>
+                    Golang
                   </a>
                 </p>
               </div>
@@ -67,32 +88,32 @@ const Backend = () => {
             >
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/watch?v=Oe421EPjeBE" target='_blank'>
+                    <img className="im1" src={ytb1} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg1} />
+                  <a href="https://www.youtube.com/watch?v=oSIv-E60NiU"  target='_blank'>
+                    <img className="im1" src={ytb2} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/watch?v=qw--VYLpxG4"  target='_blank'>
+                    <img className="im1" src={ytb3} />
                   </a>
                 </p>
               </div>
 
               <div className="yt1">
                 <p align="justify">
-                  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                    <img className="im1" src={sampleimg} />
+                  <a href="https://www.youtube.com/watch?v=PtQiiknWUcI" target='_blank'>
+                    <img className="im1" src={ytb4} />
                   </a>
                 </p>
               </div>
@@ -139,28 +160,24 @@ const Backend = () => {
               scrolldelay="10"
             >
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                <a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"  target='_blank'>
+                  <img className="im1" src={cr1} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg1} />
+                <a href="https://www.udemy.com/course/python-django-the-practical-guide/"  target='_blank'>
+                  <img className="im1" src={cr2} />
                 </a>
               </div>
 
               <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
+                <a href="https://www.udemy.com/course/sql-and-postgresql/"  target='_blank'>
+                  <img className="im1" src={cr3} />
                 </a>
               </div>
 
-              <div className="cr1">
-                <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i59j69i65l2j69i60j69i65j69i60l2.3791j0j1&sourceid=chrome&ie=UTF-8">
-                  <img className="im1" src={sampleimg} />
-                </a>
-              </div>
+              
             </marquee>
           </div>
         </div>
