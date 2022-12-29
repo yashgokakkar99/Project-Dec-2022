@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 import { BsMailbox } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+import { FcIdea } from "react-icons/fc";
 import { FaWhatsappSquare } from "react-icons/fa";
 
 import { useRef } from "react";
@@ -25,12 +25,7 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      {/* <h5>Get in touch</h5> */}
-      {/* <h2>Contact me</h2> */}
-
       <div className="container contact__container">
-        {/* <h2>Contact me</h2> */}
-
         <div className="contact__options">
           <h2>Contact us</h2>
 
@@ -41,21 +36,16 @@ const Contact = () => {
             <a href="mailto:map2procoder@gmail.com">Send a message</a>
           </article>
           <article className="contact__option">
-            <FaFacebookF />
-            <h4>FaceBook</h4>
-            <a
-              href="https://www.facebook.com/profile.php?id=100022615870474"
-              target="_blank"
-            >
-              Send a message
-            </a>
+            <FcIdea />
+            <h4>Idea/Suggestion</h4>
+            <a href="#Suggestion"> Send message</a>
           </article>
           <article className="contact__option">
             <FaWhatsappSquare />
             <h4>WhatsApp</h4>
-            <h4>+91-7666145992</h4>
+            <h4>+91-9028405992</h4>
             <a
-              href="https://api.whatsapp.com/send?phone=7666145992"
+              href="https://api.whatsapp.com/send?phone=9028405992"
               target="_blank"
             >
               Send a message
