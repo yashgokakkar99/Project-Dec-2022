@@ -8,16 +8,13 @@
     margin-bottom: 3rem;
     text-align: left;
     margin-left: 10rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.about__text p{
-    margin-top: 10px;
-    text-align: center;
-    margin-left: 14rem;
-    margin-right: 12rem;
-    font-size: 0.7rem;
-    margin-bottom: 30px;
+.con{
+    margin: auto;
+    font-size: 1.5rem;
+    padding: 35px;
 }
 
 .hand{
