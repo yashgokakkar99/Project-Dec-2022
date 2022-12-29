@@ -120,7 +120,7 @@ const Backend = () => {
               <img src={road_im}></img>
             </div>
             <div className="button">
-              <a href="https://roadmap.sh/backend">Get the road map</a>
+              <a href="https://roadmap.sh/backend" target="_blank">Get the road map</a>
             </div>
           </div>
         </div>
