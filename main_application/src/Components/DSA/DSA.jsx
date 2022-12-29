@@ -134,7 +134,7 @@ const DSA = () => {
               <img src={road_im}></img>
             </div>
             <div className="button">
-              <a href="">Get the road map</a>
+              <a href="https://www.geeksforgeeks.org/complete-roadmap-to-learn-dsa-from-scratch/" target="blank">Get the road map</a>
             </div>
           </div>
         </div>

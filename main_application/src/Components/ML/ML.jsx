@@ -129,7 +129,7 @@ const ML = () => {
                 <img src={road_im}></img>
               </div>
               <div className="button">
-                <a href="https://www.youtube.com/watch?v=y4o9hrSCDPI" target='_blank'>Get the road map</a>
+                <a href="https://www.codelivly.com/machine-learning-roadmap/" target='_blank'>Get the road map</a>
               </div>
             </div>
           </div>

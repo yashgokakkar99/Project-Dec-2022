@@ -118,7 +118,7 @@ const Andro = () => {
                 <img src={road_im}></img>
               </div>
               <div className="button">
-                <a href="">Get the road map</a>
+                <a href="https://roadmap.sh/android">Get the road map</a>
               </div>
             </div>
           </div>
