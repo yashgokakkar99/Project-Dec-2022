@@ -5,4 +5,9 @@ h1{
     width: auto;
 }
 
+@media screen and (max-width:600px){
+    .App{
+        width: 500px;
+    }
+}
 
