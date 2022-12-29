@@ -9,6 +9,8 @@ import ytb1 from '../../assets/courses/backend/yt1.png';
 import ytb2 from '../../assets/courses/backend/yt2.png';
 import ytb3 from '../../assets/courses/backend/yt3.png';
 import ytb4 from '../../assets/courses/backend/yt4.png';
+import Lottie from "lottie-react";
+import cs1 from "../../assets/lotties/coming_soon.json";
 
 const Backend = () => {
   return (
@@ -122,8 +124,9 @@ const Backend = () => {
         </div>
         <div className="Projects">
           <h4>Projects</h4>
-          <div className="project_con">
-          <div className="level3">
+          {<div className="project_con">
+          <Lottie animationData={cs1}/>
+          {/* <div className="level3">
               <h4>Advanced</h4>
             </div>
             <div className="level2">
@@ -131,8 +134,8 @@ const Backend = () => {
             </div>
             <div className="level1">
               <h4>Basic</h4>
-            </div>
-          </div>
+            </div> */}
+          </div> }
         </div>
         <div className="Roadmap">
           <h4>Roadmap</h4>

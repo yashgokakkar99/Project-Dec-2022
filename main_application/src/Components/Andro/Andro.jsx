@@ -7,6 +7,9 @@ import yand2 from "../../assets/yt/andro_cwh.jpg";
 import yand3 from "../../assets/yt/kotlin_steve.jpg";
 import yand4 from "../../assets/yt/andro_course.jpg";
 import cand1 from "../../assets/courses/andro_udemy.png";
+import Lottie from "lottie-react";
+import cs1 from "../../assets/lotties/coming_soon.json";
+
 
 const Andro = () => {
   return (
@@ -100,7 +103,8 @@ const Andro = () => {
           <div className="Projects">
             <h4>Projects</h4>
             <div className="project_con">
-            <div className="level3">
+            <Lottie animationData={cs1}/>
+            {/* <div className="level3">
               <h4>Advanced</h4>
             </div>
             <div className="level2">
@@ -108,7 +112,7 @@ const Andro = () => {
             </div>
             <div className="level1">
               <h4>Basic</h4>
-            </div>
+            </div> */}
             </div>
           </div>
           <div className="Roadmap">

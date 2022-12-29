@@ -15,10 +15,9 @@ const About = () => {
       <div className="about__text">
         <h2>About Us</h2>
         <div className="con">
-          "map2proCoder" is developed to provide essential links to study material
-          available online. So that any student start working towards his/her
-          career in Computer Science in various domains such as web dev, android
-          dev, cloud computing, cyber security and many more.
+          In order to help students make bright careers in the various fields such as Web dev, Android Dev,
+           Cloud computing, AI, ML, Cyber security and many more. <b><i><font color="magenta">"map2proCoder"</font></i></b> provides key links(resources) to study
+           materials available online.
         </div>
       </div>
       <div className="portfolio__container">

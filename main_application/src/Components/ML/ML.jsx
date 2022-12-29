@@ -10,6 +10,9 @@ import crs1 from '../../assets/courses/ml/ml_cr_1.png'
 import crs2 from '../../assets/courses/ml/ml_cr_2.png'
 import crs3 from '../../assets/courses/ml/ml_cr_3.png'
 import crs4 from '../../assets/courses/ml/ml_cr_4.png'
+import Lottie from "lottie-react";
+import cs1 from "../../assets/lotties/coming_soon.json";
+
 
 
 const ML = () => {
@@ -111,7 +114,8 @@ const ML = () => {
           <div className="Projects">
             <h4>Projects</h4>
             <div className="project_con">
-            <div className="level3">
+            <Lottie animationData={cs1}/>
+            {/* <div className="level3">
               <h4>Advanced</h4>
             </div>
             <div className="level2">
@@ -119,7 +123,7 @@ const ML = () => {
             </div>
             <div className="level1">
               <h4>Basic</h4>
-            </div>
+            </div> */}
             </div>
           </div>
           <div className="Roadmap">

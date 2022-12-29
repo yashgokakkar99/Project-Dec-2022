@@ -14,6 +14,9 @@ import ct2 from "../../assets/courses/cloud_udemy2.png";
 import ct3 from "../../assets/courses/coursera_cloud_2.png";
 import ct4 from "../../assets/courses/microsoftAzure_coursera.png";
 import ct5 from "../../assets/courses/pluralsight_cloud.png";
+import Lottie from "lottie-react";
+import cs1 from "../../assets/lotties/coming_soon.json";
+
 
 
 const Cloud = () => {
@@ -132,7 +135,8 @@ const Cloud = () => {
         <div className="Projects">
           <h4>Projects</h4>
           <div className="project_con">
-          <div className="level3">
+          <Lottie animationData={cs1}/>
+          {/* <div className="level3">
               <h4>Advanced</h4>
             </div>
             <div className="level2">
@@ -140,7 +144,7 @@ const Cloud = () => {
             </div>
             <div className="level1">
               <h4>Basic</h4>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="Roadmap">

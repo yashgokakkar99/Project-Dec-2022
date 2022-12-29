@@ -220,6 +220,8 @@
         height: auto;
     }
 
+
+
 @media only screen and (max-width:550px) {
         #yash_div{
             grid-template-columns: 1fr;

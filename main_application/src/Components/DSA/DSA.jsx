@@ -8,6 +8,9 @@ import dsa3 from "../../assets/yt/dsa3.jpg";
 import dsa4 from "../../assets/yt/dsa4.jpg";
 import dsa5 from "../../assets/yt/dsa5.jpg";
 import cdsa1 from "../../assets/courses/cdsa1.png"
+import Lottie from "lottie-react";
+import cs1 from "../../assets/lotties/coming_soon.json";
+
 
 const DSA = () => {
   return (
@@ -116,7 +119,8 @@ const DSA = () => {
         <div className="Projects">
           <h4>Projects</h4>
           <div className="project_con">
-          <div className="level3">
+          <Lottie animationData={cs1}/>
+          {/* <div className="level3">
               <h4>Advanced</h4>
             </div>
             <div className="level2">
@@ -124,7 +128,7 @@ const DSA = () => {
             </div>
             <div className="level1">
               <h4>Basic</h4>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="Roadmap">

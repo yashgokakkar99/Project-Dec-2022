@@ -5,16 +5,17 @@
 
 .about__text h2{
     margin-top: 5rem;
-    margin-bottom: 3rem;
     text-align: left;
     margin-left: 10rem;
     font-size: 2rem;
 }
 
+
+
 .con{
     margin: auto;
     font-size: 1.5rem;
-    padding: 35px;
+    padding: 35px 35px 0px 35px;
 }
 
 .hand{
@@ -27,7 +28,6 @@
     justify-content: space-around;
     /*border: 2px solid red;*/
     height: 320px;
-    margin-top:4rem;
     align-items: center;
 }
 

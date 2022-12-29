@@ -23,9 +23,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href='' target='_blank'><FaFacebookSquare/></a>
-        <a href='' target='_blank'><AiOutlineMail/></a>
-        <a href='' target='_blank'><BsGithub/></a>
+        {/* <a href='' target='_blank'><FaFacebookSquare/></a> */}
+        <a href='mailto:map2proCoder@gmail.com' target='_blank'><AiOutlineMail/></a>
+        <a href='https://github.com/yashgokakkar99/Project-Dec-2022' target='_blank'><BsGithub/></a>
       </div>
 
       <div className="footer__copyright">
