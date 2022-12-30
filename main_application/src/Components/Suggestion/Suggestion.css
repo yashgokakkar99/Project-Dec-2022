@@ -91,7 +91,7 @@ select{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: rgb(7, 8, 9);
+    color: rgb(168, 170, 172);
 }
 .btn{
     width:max-content;
