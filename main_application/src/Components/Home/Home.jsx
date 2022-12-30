@@ -16,7 +16,7 @@ import Cloud from "../Cloud/Cloud";
 import AI from "../AI/AI";
 import ML from "../ML/ML";
 import CyberSecurity from "../CyberSecurity/CyberSecurity";
-import Graphics from "../Graphics/Graphics";
+import Graphics from "../GRAPHICS/Graphics";
 import { useState } from "react";
 import DSA from "../DSA/DSA";
 import Lottie from "lottie-react";
