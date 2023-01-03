@@ -1,4 +1,7 @@
 import React from "react";
+import  { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
@@ -56,7 +59,7 @@ const Andro = () => {
           <div className="yt_videos">
             <h4>Youtube videos</h4>
             <div className="img_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="up"
@@ -97,7 +100,63 @@ const Andro = () => {
                     </a>
                   </p>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/@PhilippLackner/playlists"
+                  target="blank"
+                >
+                  <img className="im1" src={yand1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://youtube.com/watch?v=mXjZQX3UzOs"
+                    target="blank"
+                  >
+                    <img className="im1" src={yand2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/@StevdzaSan"
+                    target="blank"
+                  >
+                    <img className="im1" src={yand3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1"
+                    target="blank"
+                  >
+                    <img className="im1" src={yand4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              
+            </Swiper>
             </div>
           </div>
           <div className="Projects">
@@ -130,7 +189,7 @@ const Andro = () => {
           <div className="Courses">
             <h4>Courses</h4>
             <div className="course_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="down"
@@ -145,7 +204,32 @@ const Andro = () => {
                     <img className="im1" src={cand1} />
                   </a>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.udemy.com/course/android-kotlin-developer/"
+                  target="blank"
+                >
+                  <img className="im1" src={cand1} />
+                </a>
+              </SwiperSlide>
+              
+            </Swiper>
             </div>
           </div>
 

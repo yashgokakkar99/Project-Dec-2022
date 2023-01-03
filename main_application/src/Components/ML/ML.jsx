@@ -1,5 +1,8 @@
 import React from 'react'
 import './ML.css'
+import  { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 import road_im from '../../assets/Images/road-map.png'
 import ytb1 from '../../assets/courses/ml/ml_yt_1.png'
@@ -67,7 +70,7 @@ const ML = () => {
           <div className="yt_videos">
             <h4>Youtube videos</h4>
             <div className="img_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="up"
@@ -108,7 +111,63 @@ const ML = () => {
                     </a>
                   </p>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/watch?v=GwIo3gDZCVQ"
+                  target="blank"
+                >
+                  <img className="im1" src={ytb1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=NWONeJKn6kc"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=7eh4d6sabA0"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              
+            </Swiper>
             </div>
           </div>
           <div className="Projects">
@@ -141,7 +200,7 @@ const ML = () => {
           <div className="Courses">
             <h4>Courses</h4>
             <div className="course_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="down"
@@ -174,7 +233,52 @@ const ML = () => {
                     <img className="im1" src={crs4} />
                   </a>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://developers.google.com/machine-learning/crash-course"
+                  target="blank"
+                >
+                  <img className="im1" src={crs1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://in.coursera.org/learn/machine-learning" target="blank">
+                  <img className="im1" src={crs2} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://intellipaat.com/machine-learning-certification-training-course/"
+                  target="blank"
+                >
+                  <img className="im1" src={crs3} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/" target="blank">
+                  <img className="im1" src={crs4} />
+                </a>
+              </SwiperSlide>
+            </Swiper>
             </div>
           </div>
 

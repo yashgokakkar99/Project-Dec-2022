@@ -1,4 +1,7 @@
 import React from 'react'
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
@@ -78,7 +81,7 @@ const Backend = () => {
         <div className="yt_videos">
           <h4>Youtube videos</h4>
           <div className="img_marquee">
-            <marquee
+            {/* <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
               direction="up"
@@ -119,7 +122,63 @@ const Backend = () => {
                   </a>
                 </p>
               </div>
-            </marquee>
+            </marquee> */}
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/watch?v=Oe421EPjeBE"
+                  target="blank"
+                >
+                  <img className="im1" src={ytb1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=oSIv-E60NiU"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=qw--VYLpxG4"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=PtQiiknWUcI"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              
+            </Swiper>
           </div>
         </div>
         <div className="Projects">
@@ -152,7 +211,7 @@ const Backend = () => {
         <div className="Courses">
           <h4>Courses</h4>
           <div className="course_marquee">
-            <marquee
+            {/* <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
               direction="down"
@@ -181,7 +240,47 @@ const Backend = () => {
               </div>
 
               
-            </marquee>
+            </marquee> */}
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+                  target="blank"
+                >
+                  <img className="im1" src={cr1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.udemy.com/course/python-django-the-practical-guide/" target="blank">
+                  <img className="im1" src={cr2} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.udemy.com/course/sql-and-postgresql/"
+                  target="blank"
+                >
+                  <img className="im1" src={cr3} />
+                </a>
+              </SwiperSlide>
+              
+            </Swiper>
           </div>
         </div>
 

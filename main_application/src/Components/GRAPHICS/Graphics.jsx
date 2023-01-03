@@ -1,6 +1,8 @@
 import React from 'react'
 import './Graphics.css'
-
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
@@ -68,7 +70,7 @@ const Graphics = () => {
           <div className="yt_videos">
             <h4>Youtube videos</h4>
             <div className="img_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="up"
@@ -109,7 +111,63 @@ const Graphics = () => {
                     </a>
                   </p>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/playlist?list=PLYfCBK8IplO4E2sXtdKMVpKJZRBEoMvpn"
+                  target="blank"
+                >
+                  <img className="im1" src={ytb1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PL0EqspLrOAxRX_IeXFX1jcaqHKCc45IJx"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=YiLUYf4HDh4"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=un50Bs4BvZ8"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              
+            </Swiper>
             </div>
           </div>
           <div className="Projects">
@@ -142,7 +200,7 @@ const Graphics = () => {
           <div className="Courses">
             <h4>Courses</h4>
             <div className="course_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="down"
@@ -175,7 +233,52 @@ const Graphics = () => {
                     <img className="im1" src={crs4} />
                   </a>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.udemy.com/course/graphic-design/"
+                  target="blank"
+                >
+                  <img className="im1" src={crs1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://in.coursera.org/specializations/graphic-design" target="blank">
+                  <img className="im1" src={crs2} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="ttps://in.upskillist.com/courses/design/online-graphic-design-course/"
+                  target="blank"
+                >
+                  <img className="im1" src={crs3} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.udemy.com/course/graphic-design-for-beginners/" target="blank">
+                  <img className="im1" src={crs4} />
+                </a>
+              </SwiperSlide>
+            </Swiper>
             </div>
           </div>
 
