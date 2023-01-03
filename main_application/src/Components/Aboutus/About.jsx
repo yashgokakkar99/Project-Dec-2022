@@ -23,7 +23,7 @@ const About = () => {
       <div className="portfolio__container">
         <div className="portfolio_img">
           <img src={IMG1} alt="" />
-          <h3>YASH GOKKAKAR</h3>
+          <h3>YASH ASHOK GOKAKKAR</h3>
           <a href={cv1} target="_blank" download className="btn">
             <FiDownload size={30} />
           </a>
