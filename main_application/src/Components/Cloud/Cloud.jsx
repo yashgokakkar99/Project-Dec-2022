@@ -1,4 +1,7 @@
 import React from 'react'
+import  { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
@@ -64,7 +67,7 @@ const Cloud = () => {
         <div className="yt_videos">
           <h4>Youtube videos</h4>
           <div className="img_marquee">
-            <marquee
+            {/* <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
               direction="up"
@@ -129,7 +132,92 @@ const Cloud = () => {
                   </a>
                 </p>
               </div>
-            </marquee>
+            </marquee> */}
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/watch?v=k1RI5locZE4"
+                  target="blank"
+                >
+                  <img className="im1" src={ut1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=ZB5ONbD_SMY"
+                    target="blank"
+                  >
+                    <img className="im1" src={ut2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=-8O32k26RWA"
+                    target="blank"
+                  >
+                    <img className="im1" src={ut3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=A7h5wSlw3fg"
+                    target="blank"
+                  >
+                    <img className="im1" src={ut4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=bRiatZMnkmA"
+                    target="blank"
+                  >
+                    <img className="im1" src={ut5} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=JBo2vV5SpOM"
+                    target="blank"
+                  >
+                    <img className="im1" src={ut6} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=0rrDqBIP2qU"
+                    target="blank"
+                  >
+                    <img className="im1" src={ut7} />
+                  </a>
+                </p>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
         <div className="Projects">
@@ -162,7 +250,7 @@ const Cloud = () => {
         <div className="Courses">
           <h4>Courses</h4>
           <div className="course_marquee">
-            <marquee
+            {/* <marquee
               id="rightContainer_ContentTable2_panel3"
               behaviour="scroll"
               align="justify"
@@ -203,7 +291,58 @@ const Cloud = () => {
                   <img className="im1" src={ct5} />
                 </a>
               </div>
-            </marquee>
+            </marquee> */}
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.udemy.com/course/getting-started-with-cloud-computing-level-1/"
+                  target="blank"
+                >
+                  <img className="im1" src={ct1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.udemy.com/course/introduction-to-cloud-computing-with-amazon-web-services/" target="blank">
+                  <img className="im1" src={ct2} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.coursera.org/learn/cloud-computing?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-data-analytics_FTCOF_professional-certificates_PMax-arte-NRL_within_14D&utm_content=B2C&campaignid=19009611551&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo"
+                  target="blank"
+                >
+                  <img className="im1" src={ct3} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://in.coursera.org/specializations/microsoft-azure-fundamentals-az-900?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-it-support_FTCOF_professional-certificates_PMax-arte-NRL_greater_than_14D&utm_content=B2C&campaignid=18968559034&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo" target="blank">
+                  <img className="im1" src={ct4} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.pluralsight.com/courses/cloud-computing-big-picture" target="blank">
+                  <img className="im1" src={ct5} />
+                </a>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import './AI.css'
-
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 import road_im from "../../assets/Images/road-map.png";
 import ytb1 from '../../assets/courses/AI/ai_yt1.png';
@@ -69,7 +71,7 @@ const AI = () => {
           <div className="yt_videos">
             <h4>Youtube videos</h4>
             <div className="img_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="up"
@@ -110,7 +112,63 @@ const AI = () => {
                     </a>
                   </p>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/watch?v=JMUxmLyrhSk"
+                  target="blank"
+                >
+                  <img className="im1" src={ytb1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=lTzHlU3OrXs"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLH2l6uzC4UEVGUu2--3xBjTMFily1IwP9"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLkjZS1KzvTGGaTmv08sPS-6Ru4d_PXgXI"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              
+            </Swiper>
             </div>
           </div>
           <div className="Projects">
@@ -143,7 +201,7 @@ const AI = () => {
           <div className="Courses">
             <h4>Courses</h4>
             <div className="course_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="down"
@@ -176,7 +234,52 @@ const AI = () => {
                     <img className="im1" src={crs4} />
                   </a>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://in.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai"
+                  target="blank"
+                >
+                  <img className="im1" src={crs1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://in.coursera.org/learn/ai-for-everyone" target="blank">
+                  <img className="im1" src={crs2} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://intellipaat.com/artificial-intelligence-deep-learning-course-with-tensorflow//"
+                  target="blank"
+                >
+                  <img className="im1" src={crs3} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.udemy.com/course/artificial-intelligence-az/" target="blank">
+                  <img className="im1" src={crs4} />
+                </a>
+              </SwiperSlide>
+            </Swiper>
             </div>
           </div>
 
