@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+
 import "./Main.css";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
@@ -14,6 +14,7 @@ import cfron3 from "../../assets/courses/cfron3.png";
 import cfron4 from "../../assets/courses/cfron4.png";
 import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
+import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 

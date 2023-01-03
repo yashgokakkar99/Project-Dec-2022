@@ -1,6 +1,8 @@
 import React from 'react'
 import './CyberSecurity.css'
-
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
@@ -68,7 +70,7 @@ const CyberSecurity = () => {
           <div className="yt_videos">
             <h4>Youtube videos</h4>
             <div className="img_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="up"
@@ -109,7 +111,63 @@ const CyberSecurity = () => {
                     </a>
                   </p>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/watch?v=yr1Psapupsc"
+                  target="blank"
+                >
+                  <img className="im1" src={ytb1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=nzZkKoREEGo&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=2"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLQVJk9oC5JKq15cieChuOU9zFdf-FlnMi"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLbqGQ5B2op8QfvAfHSpw5jn_Nv22JQuM-"
+                    target="blank"
+                  >
+                    <img className="im1" src={ytb4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              
+            </Swiper>
             </div>
           </div>
           <div className="Projects">
@@ -142,7 +200,7 @@ const CyberSecurity = () => {
           <div className="Courses">
             <h4>Courses</h4>
             <div className="course_marquee">
-              <marquee
+              {/* <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="down"
@@ -175,7 +233,52 @@ const CyberSecurity = () => {
                     <img className="im1" src={crs4} />
                   </a>
                 </div>
-              </marquee>
+              </marquee> */}
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://in.coursera.org/specializations/intro-cyber-security"
+                  target="blank"
+                >
+                  <img className="im1" src={crs1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/" target="blank">
+                  <img className="im1" src={crs2} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.futurelearn.com/courses/introduction-to-cyber-security"
+                  target="blank"
+                >
+                  <img className="im1" src={crs3} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <a href="https://intellipaat.com/cyber-security-course-certification/" target="blank">
+                  <img className="im1" src={crs4} />
+                </a>
+              </SwiperSlide>
+            </Swiper>
             </div>
           </div>
 

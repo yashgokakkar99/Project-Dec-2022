@@ -1,4 +1,7 @@
 import React from 'react'
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import sampleimg from "../../assets/suggestion.png";
 import sampleimg1 from "../../assets/Images/android.png";
 import road_im from "../../assets/Images/road-map.png";
@@ -64,7 +67,7 @@ const DSA = () => {
         <div className="yt_videos">
           <h4>Youtube videos</h4>
           <div className="img_marquee">
-            <marquee
+            {/* <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
               direction="up"
@@ -113,7 +116,72 @@ const DSA = () => {
                   </a>
                 </p>
               </div>
-            </marquee>
+            </marquee> */}
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+                  target="blank"
+                >
+                  <img className="im1" src={dsa1} />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU"
+                    target="blank"
+                  >
+                    <img className="im1" src={dsa2} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f"
+                    target="blank"
+                  >
+                    <img className="im1" src={dsa3} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=EAR7De6Goz4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+                    target="blank"
+                  >
+                    <img className="im1" src={dsa4} />
+                  </a>
+                </p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <p align="justify">
+                  <a
+                    href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+                    target="blank"
+                  >
+                    <img className="im1" src={dsa5} />
+                  </a>
+                </p>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
         <div className="Projects">
@@ -146,7 +214,7 @@ const DSA = () => {
         <div className="Courses">
           <h4>Courses</h4>
           <div className="course_marquee">
-            <marquee
+            {/* <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
               direction="down"
@@ -163,7 +231,32 @@ const DSA = () => {
               </div>
 
               
-            </marquee>
+            </marquee> */}
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                {" "}
+                <a
+                  href="https://www.udemy.com/course/datastructurescncpp/"
+                  target="blank"
+                >
+                  <img className="im1" src={cdsa1} />
+                </a>
+              </SwiperSlide>
+              
+            </Swiper>
           </div>
         </div>
 
