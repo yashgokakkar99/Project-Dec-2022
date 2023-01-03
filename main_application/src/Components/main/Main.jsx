@@ -16,6 +16,7 @@ import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import Modal from "react-modal";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -27,19 +28,22 @@ const Main = () => {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   };
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <section id="Main">
       <div className="maindiv_content" id="yash_div">
         <div className="offi_websites">
           <h4>Official websites</h4>
-          {
-            <div className="marquee_div">
+
+          <div className="marquee_div" id="link_con">
+            <div className="all_links">
               <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
                 direction="up"
                 onmouseout="this.start()"
-                height="200px"
+                height="165px"
                 onmouseover="this.stop()"
                 scrollamount="3"
                 scrolldelay="60"
@@ -149,7 +153,143 @@ const Main = () => {
                 </div>
               </marquee>
             </div>
-          }
+            <div className="modal_button">
+              <button onClick={() => setModalIsOpen(true)}>Click Here</button>
+              <Modal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => setModalIsOpen(false)}
+                style={{
+                  overlay: {
+                    backgroundColor: "#3c3c74",
+                    zIndex: 100,
+                  },
+                  content: {
+                    zIndex: 100,
+                    backgroundColor: "#313150",
+                  },
+                }}
+              >
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://html.com/">HTML</a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                      target="blank"
+                    >
+                      HTML | MDN
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.w3schools.com/html/8" target="blank">
+                      HTML | w3schools
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                      target="blank"
+                    >
+                      CSS | MDN
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.w3schools.com/css/" target="blank">
+                      CSS | w3schools
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.geeksforgeeks.org/css/" target="blank">
+                      CSS | geeks for geeks
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScrip"
+                      target="blank"
+                    >
+                      Javascript | MDN
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.w3schools.com/js/" target="blank">
+                      Javascript | w3schools
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://www.geeksforgeeks.org/javascript/"
+                      target="blank"
+                    >
+                      Javascript | geeks for geeks
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://reactjs.org/tutorial/tutorial.html"
+                      target="blank"
+                    >
+                      ReactJs
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://www.w3schools.com/REACT/DEFAULT.ASP"
+                      target="blank"
+                    >
+                      ReactJs | w3schools
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a
+                      href="https://www.geeksforgeeks.org/reactjs-tutorials/"
+                      target="blank"
+                    >
+                      ReactJs | geeks for geeks
+                    </a>
+                  </p>
+                </div>
+                <div>
+                  <button
+                    id="close_btn"
+                    onClick={() => setModalIsOpen(false)}
+                    style={{
+                      backgroundColor: "red",
+                      height: "30px",
+                      width: "60px",
+                      color: "white",
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+            </div>
+          </div>
         </div>
         <div className="yt_videos">
           <h4>Youtube videos</h4>

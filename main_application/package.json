@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-fullscreen-loading": "^0.0.4",
     "react-icons": "^4.7.1",
+    "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.7",
     "react-switch": "^7.0.0",

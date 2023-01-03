@@ -1,277 +1,316 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
-
-#yash_div{
-    height: auto;
+#yash_div {
+  height: auto;
 }
 
-.maindiv_content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
-    padding: 1.875rem;
-    height: 100vh;
+.maindiv_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  padding: 1.875rem;
+  height: 100vh;
 }
 
-.offi_websites, .yt_videos, .Projects, .Roadmap, .Courses, .Suggestion_form{
-    border: 2px solid magenta;
-    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
+.offi_websites,
+.yt_videos,
+.Projects,
+.Roadmap,
+.Courses,
+.Suggestion_form {
+  border: 2px solid magenta;
+  box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
   background-color: #313150;
   color: white;
   border-radius: 2.188rem;
   height: 300px;
-
 }
 
-.offi_websites h4,.yt_videos h4,.Projects h4,.Roadmap h4,.Courses h4,.Suggestion_form h4{
-    text-align: center;
-    margin: auto;
+.offi_websites h4,
+.yt_videos h4,
+.Projects h4,
+.Roadmap h4,
+.Courses h4,
+.Suggestion_form h4 {
+  text-align: center;
+  margin: auto;
 }
 
-.marquee_div{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 2px solid rgb(131, 140, 230);
-    border-radius: 20px;
-    height: 85%;
-    width: 90%;
-    margin: auto;
+#link_con {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgb(95, 136, 231);
+  border-radius: 20px;
+  height: 85%;
+  width: 90%;
+  margin: auto;
 }
 
-.site1{
-    margin: auto;
-    padding: 10px;
+.all_links {
+  border: 2px solid rgb(100, 70, 182);
+  height: 190px;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
 }
 
-.site1 p{
-    border: 2px solid rgb(165, 179, 245);
-    padding: 5px 15px 5px 15px;
-    border-radius: 10px;
+.modal_button {
+  height: 40px;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
 }
 
-.img_marquee{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgb(78, 82, 186);
-    border-radius: 20px;
-    height: 85%;
-    width: 90%;
-    margin: auto;
+.modal_button button {
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: aqua;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: "Poppins", sans-serif;
 }
 
-.yt1{
-    margin: auto;
-    padding: 10px;
+#close_btn {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: "Poppins", sans-serif;
 }
 
-.im1{
-    height: 200px;
-    width: 390px;
-    justify-content: center;
+.modal_button button:hover {
+  background-color: greenyellow;
+  box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
 }
 
-.cr1{
-    margin: auto;
-    padding: 10px;
+.site1 {
+  margin: auto;
+  padding: 10px;
 }
 
-.course_marquee{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgb(176, 60, 218);
-    border-radius: 20px;
-    height: 85%;
-    width: 90%;
-    margin: auto;
+.site1 p {
+  border: 2px solid rgb(165, 179, 245);
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
 }
 
-.roadmap_con{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgb(95, 136, 231);
-    border-radius: 20px;
-    height: 85%;
-    width: 90%;
-    margin: auto;
+.img_marquee {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgb(78, 82, 186);
+  border-radius: 20px;
+  height: 85%;
+  width: 90%;
+  margin: auto;
 }
 
-.road_img{
-    border: 2px solid rgb(100, 70, 182);
-    height: 190px;
-    width: 95%;
-    margin: auto;
-    border-radius: 20px;
+.yt1 {
+  margin: auto;
+  padding: 10px;
 }
 
-.road_img img{
-    height: 190px;
-    width: 70%;
+.im1 {
+  height: 200px;
+  width: 390px;
+  justify-content: center;
 }
 
-
-
-.button{
-    border: 2px solid rgb(30, 25, 111);
-    height: 30px;
-    background-color: rgb(200, 186, 237);
-    width: 95%;
-    margin: auto;
-    border-radius: 20px;
+.cr1 {
+  margin: auto;
+  padding: 10px;
 }
 
-.button a{
-    text-align: center;
-    line-height: 30px;
-    vertical-align: middle;
-    justify-content: flex-start;
-    margin-top: 0;
+.course_marquee {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgb(176, 60, 218);
+  border-radius: 20px;
+  height: 85%;
+  width: 90%;
+  margin: auto;
 }
 
-.btn{
-    border: 2px solid rgb(106, 102, 236);
+.roadmap_con {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgb(95, 136, 231);
+  border-radius: 20px;
+  height: 85%;
+  width: 90%;
+  margin: auto;
 }
 
-.project_con{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(29, 18, 111);
-    border-radius: 20px;
-    height: 85%;
-    width: 90%;
-    margin: auto;
+.road_img {
+  border: 2px solid rgb(100, 70, 182);
+  height: 190px;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
 }
 
-.suggest_con{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgb(55, 64, 110);
-    border-radius: 20px;
-    height: 85%;
-    width: 90%;
-    margin: auto;
+.road_img img {
+  height: 190px;
+  width: 70%;
 }
 
-.level5{
-    border: 2px solid red;
-    height: 45px;
-    width: 95%;
-    margin: auto;
-    background-color: rgb(223, 19, 19);
-    border-radius: 20px;
+.button {
+  border: 2px solid rgb(30, 25, 111);
+  height: 30px;
+  background-color: rgb(200, 186, 237);
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
 }
 
-.level4{
-    border: 2px solid rgb(42, 42, 155);
-    height: 45px;
-    width: 85%;
-    margin: auto;
-    background-color: rgb(223, 131, 19);
-    border-radius: 20px;
+.button a {
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  justify-content: flex-start;
+  margin-top: 0;
 }
 
-.level3{
-    border: 2px solid red;
-    height: 45px;
-    width: 75%;
-    margin: auto;
-    background-color: rgb(189, 223, 19);
-    border-radius: 20px;
+.btn {
+  border: 2px solid rgb(106, 102, 236);
 }
 
-.level2{
-    border: 2px solid red;
-    height: 45px;
-    width: 65%;
-    margin: auto;
-    background-color: rgb(118, 223, 19);
-    border-radius: 20px;
+.project_con {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(29, 18, 111);
+  border-radius: 20px;
+  height: 85%;
+  width: 90%;
+  margin: auto;
 }
 
-.level1{
-    border: 2px solid red;
-    height: 45px;
-    width: 55%;
-    margin: auto;
-    background-color: rgb(91, 223, 19);
-    border-radius: 20px;
+.suggest_con {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgb(55, 64, 110);
+  border-radius: 20px;
+  height: 85%;
+  width: 90%;
+  margin: auto;
 }
-  
+
+.level5 {
+  border: 2px solid red;
+  height: 45px;
+  width: 95%;
+  margin: auto;
+  background-color: rgb(223, 19, 19);
+  border-radius: 20px;
+}
+
+.level4 {
+  border: 2px solid rgb(42, 42, 155);
+  height: 45px;
+  width: 85%;
+  margin: auto;
+  background-color: rgb(223, 131, 19);
+  border-radius: 20px;
+}
+
+.level3 {
+  border: 2px solid red;
+  height: 45px;
+  width: 75%;
+  margin: auto;
+  background-color: rgb(189, 223, 19);
+  border-radius: 20px;
+}
+
+.level2 {
+  border: 2px solid red;
+  height: 45px;
+  width: 65%;
+  margin: auto;
+  background-color: rgb(118, 223, 19);
+  border-radius: 20px;
+}
+
+.level1 {
+  border: 2px solid red;
+  height: 45px;
+  width: 55%;
+  margin: auto;
+  background-color: rgb(91, 223, 19);
+  border-radius: 20px;
+}
+
 .texts {
-        margin-top: 5rem;
-        text-align: center;
-        margin-bottom: 5rem;
-        border-radius: 18rem;
-        border: 2px solid transparent;
-        border-color: rgb(51, 70, 155);
-        height: 70%;
-        width: 80%;
-        padding-top:4rem;
-        padding-bottom:5rem;
-        margin-left: 3rem;
-        font-size: 25px;
-      }
-
-@media only screen and (max-width:550px) {
-    #yash_div{
-        grid-template-columns: 1fr;
-    }
-    .swiper {
-        width: 450px;
-        height: 200px;
-        margin: auto;
-        border-radius: 20px;
-      }
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  border-radius: 18rem;
+  border: 2px solid transparent;
+  border-color: rgb(51, 70, 155);
+  height: 70%;
+  width: 80%;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  margin-left: 3rem;
+  font-size: 25px;
 }
 
+@media only screen and (max-width: 550px) {
+  #yash_div {
+    grid-template-columns: 1fr;
+  }
+  .swiper {
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+    z-index: -1;
+  }
+}
 
 .swiper {
-    width: 390px;
-    height: 220px;
-    margin: auto;
-    border-radius: 20px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  width: 390px;
+  height: 220px;
+  margin: auto;
+  border-radius: 20px;
+  z-index: 1;
+}
 
-  
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
-  
-  
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
