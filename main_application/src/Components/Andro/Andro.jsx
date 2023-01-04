@@ -12,16 +12,19 @@ import yand4 from "../../assets/yt/andro_course.jpg";
 import cand1 from "../../assets/courses/andro_udemy.png";
 import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
-
+import Modal from "react-modal";
 
 const Andro = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   return (
     <div>
       <section id="Main">
         <div className="maindiv_content" id="yash_div">
           <div className="offi_websites">
             <h4>Official websites</h4>
-            <div className="marquee_div">
+            <div className="marquee_div" id="link_con">
+            <div className="all_links">
               <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
@@ -54,6 +57,63 @@ const Andro = () => {
                   </p>
                 </div>
               </marquee>
+              </div>
+
+              <div className="modal_button">
+              <button onClick={() => setModalIsOpen(true)}>Click Here</button>
+              <Modal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => setModalIsOpen(false)}
+                style={{
+                  overlay: {
+                    backgroundColor: "#3c3c74",
+                    zIndex: 100,
+                  },
+                  content: {
+                    zIndex: 100,
+                    backgroundColor: "#313150",
+                  },
+                }}
+              >
+              <div className="site1">
+                  <p align="justify">
+                    <a href="https://developer.android.com/docs" target="blank">
+                      Android Developer Documentation
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://developer.android.com/" target="blank">
+                      Android Developer official
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://developer.android.com/courses/android-basics-kotlin/course" target="blank">
+                      Android Kotlin basics
+                    </a>
+                  </p>
+                </div>
+                
+                <div>
+                  <button
+                    id="close_btn"
+                    onClick={() => setModalIsOpen(false)}
+                    style={{
+                      backgroundColor: "red",
+                      height: "30px",
+                      width: "60px",
+                      color: "white",
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+            </div>
             </div>
           </div>
           <div className="yt_videos">

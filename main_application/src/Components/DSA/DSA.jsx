@@ -13,16 +13,20 @@ import dsa5 from "../../assets/yt/dsa5.jpg";
 import cdsa1 from "../../assets/courses/cdsa1.png"
 import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
-
+import Modal from "react-modal";
 
 const DSA = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <div>
       <section id="Main">
       <div className="maindiv_content" id='yash_div'>
         <div className="offi_websites">
           <h4>Official websites</h4>
-          <div className="marquee_div">
+
+
+          <div className="marquee_div" id="link_con">
+          <div className="all_links">
             <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
@@ -62,6 +66,69 @@ const DSA = () => {
                 </p>
               </div>
             </marquee>
+            </div>
+            <div className="modal_button">
+              <button onClick={() => setModalIsOpen(true)}>Click Here</button>
+              <Modal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => setModalIsOpen(false)}
+                style={{
+                  overlay: {
+                    backgroundColor: "#3c3c74",
+                    zIndex: 100,
+                  },
+                  content: {
+                    zIndex: 100,
+                    backgroundColor: "#313150",
+                  },
+                }}
+              >
+                
+                <div className="site1">
+                <p align="justify">
+                  <a href="https://www.geeksforgeeks.org/data-structures/">
+                    DSA | geeks for geeks
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.w3schools.in/data-structures/intro">
+                    DSA | w3schools
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.javatpoint.com/data-structure-tutorial">
+                    DSA | Java T Point
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://www.programiz.com/dsa/data-structure-types">
+                    DSA | Programiz
+                  </a>
+                </p>
+              </div>
+                <div>
+                  <button
+                    id="close_btn"
+                    onClick={() => setModalIsOpen(false)}
+                    style={{
+                      backgroundColor: "red",
+                      height: "30px",
+                      width: "60px",
+                      color: "white",
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+            </div>
           </div>
         </div>
         <div className="yt_videos">
