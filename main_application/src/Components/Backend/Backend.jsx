@@ -32,7 +32,7 @@ const Backend = () => {
               align="justify"
               direction="up"
               onmouseout="this.start()"
-              height="200px"
+              height="165px"
               onmouseover="this.stop()"
               scrollamount="3"
               scrolldelay="60"

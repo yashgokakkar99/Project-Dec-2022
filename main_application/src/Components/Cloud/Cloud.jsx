@@ -38,7 +38,7 @@ const Cloud = () => {
               align="justify"
               direction="up"
               onMouseOut="this.start()"
-              height="200px"
+              height="165px"
               onMouseOver="this.stop()"
               scrollamount="3"
               scrolldelay="60"
