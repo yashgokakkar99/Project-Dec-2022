@@ -42,6 +42,53 @@
     margin: auto;
 }
 
+#link_con {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(95, 136, 231);
+    border-radius: 20px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .all_links {
+    border: 2px solid rgb(100, 70, 182);
+    height: 190px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  .modal_button {
+    height: 40px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  .modal_button button {
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: aqua;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: "Poppins", sans-serif;
+  }
+  
+  #close_btn {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: "Poppins", sans-serif;
+  }
+  
+  .modal_button button:hover {
+    background-color: greenyellow;
+    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
+  }
 .site1{
     margin: auto;
     padding: 10px;

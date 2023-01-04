@@ -16,16 +16,18 @@ import crs3 from '../../assets/courses/cs/cs_cr3.png'
 import crs4 from '../../assets/courses/cs/cs_cr4.png'
 import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
-
+import Modal from "react-modal";
 
 const CyberSecurity = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <div>
       <section id="Main">
         <div className="maindiv_content" id='yash_div'>
           <div className="offi_websites">
             <h4>Official websites</h4>
-            <div className="marquee_div">
+            <div className="marquee_div" id='link_con'>
+            <div className="all_links">
               <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
@@ -65,6 +67,71 @@ const CyberSecurity = () => {
                   </p>
                 </div>
               </marquee>
+              </div>
+
+              <div className="modal_button">
+              <button onClick={() => setModalIsOpen(true)}>Click Here</button>
+              <Modal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => setModalIsOpen(false)}
+                style={{
+                  overlay: {
+                    backgroundColor: "#3c3c74",
+                    zIndex: 100,
+                  },
+                  content: {
+                    zIndex: 100,
+                    backgroundColor: "#313150",
+                  },
+                }}
+              >
+
+<div className="site1">
+                  <p align="justify">
+                    <a href="https://www.cybrary.it/" target='_blank'>
+                      Cybrary
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.cisa.gov/cybersecurity" target='_blank'>
+                      CISA
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://cybercademy.org/training-platforms/" target='_blank'>
+                      CyberCademy
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content" target='_blank'>
+                      NIST
+                    </a>
+                  </p>
+                </div>
+                
+                <div>
+                  <button
+                    id="close_btn"
+                    onClick={() => setModalIsOpen(false)}
+                    style={{
+                      backgroundColor: "red",
+                      height: "30px",
+                      width: "60px",
+                      color: "white",
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+              </div>
             </div>
           </div>
           <div className="yt_videos">

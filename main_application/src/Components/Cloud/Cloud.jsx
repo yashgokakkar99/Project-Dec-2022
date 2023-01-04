@@ -19,17 +19,20 @@ import ct4 from "../../assets/courses/microsoftAzure_coursera.png";
 import ct5 from "../../assets/courses/pluralsight_cloud.png";
 import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
-
+import Modal from "react-modal";
 
 
 const Cloud = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   return (
     // <di className='outerContainer'>
       <section id="Main">
       <div className="maindiv_content" id='yash_div'>
         <div className="offi_websites">
           <h4>Official websites</h4>
-          <div className="marquee_div">
+          <div className="marquee_div" id="link_con">
+          <div className="all_links">
             <marquee
               id="rightContainer_ContentTable2_panel3"
               align="justify"
@@ -62,6 +65,62 @@ const Cloud = () => {
                 </p>
               </div>
             </marquee>
+            </div>
+
+            <div className="modal_button">
+              <button onClick={() => setModalIsOpen(true)}>Click Here</button>
+              <Modal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => setModalIsOpen(false)}
+                style={{
+                  overlay: {
+                    backgroundColor: "#3c3c74",
+                    zIndex: 100,
+                  },
+                  content: {
+                    zIndex: 100,
+                    backgroundColor: "#313150",
+                  },
+                }}
+              >
+                <div className="site1">
+                <p align="justify">
+                  <a href="https://cloud.google.com/" target="_blank">
+                    Google Cloud
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://aws.amazon.com/" target="_blank">
+                    Amazon Web Services
+                  </a>
+                </p>
+              </div>
+              <div className="site1">
+                <p align="justify">
+                  <a href="https://azure.microsoft.com/en-in/ " target="_blank">
+                    Microsoft Azure
+                  </a>
+                </p>
+              </div>
+                <div>
+                  <button
+                    id="close_btn"
+                    onClick={() => setModalIsOpen(false)}
+                    style={{
+                      backgroundColor: "red",
+                      height: "30px",
+                      width: "60px",
+                      color: "white",
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+            </div>
           </div>
         </div>
         <div className="yt_videos">

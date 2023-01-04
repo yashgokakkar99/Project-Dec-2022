@@ -15,17 +15,20 @@ import crs3 from '../../assets/courses/ml/ml_cr_3.png'
 import crs4 from '../../assets/courses/ml/ml_cr_4.png'
 import Lottie from "lottie-react";
 import cs1 from "../../assets/lotties/coming_soon.json";
-
+import Modal from "react-modal";
 
 
 const ML = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   return (
     <div>
       <section id="Main">
         <div className="maindiv_content" id='yash_div'>
           <div className="offi_websites">
             <h4>Official websites</h4>
-            <div className="marquee_div">
+            <div className="marquee_div" id="link_con">
+            <div className="all_links">
               <marquee
                 id="rightContainer_ContentTable2_panel3"
                 align="justify"
@@ -65,6 +68,69 @@ const ML = () => {
                   </p>
                 </div>
               </marquee>
+              </div>
+
+              <div className="modal_button">
+              <button onClick={() => setModalIsOpen(true)}>Click Here</button>
+              <Modal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => setModalIsOpen(false)}
+                style={{
+                  overlay: {
+                    backgroundColor: "#3c3c74",
+                    zIndex: 100,
+                  },
+                  content: {
+                    zIndex: 100,
+                    backgroundColor: "#313150",
+                  },
+                }}
+              >
+<div className="site1">
+                  <p align="justify">
+                    <a href="https://www.openml.org/" target='_blank'>
+                      Openml
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://machinehack.com/" target='_blank'>
+                      Machine Hack
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc" target='_blank'>
+                      Google Colab
+                    </a>
+                  </p>
+                </div>
+                <div className="site1">
+                  <p align="justify">
+                    <a href="https://www.tensorflow.org/" target='_blank'>
+                      TensorFlow
+                    </a>
+                  </p>
+                </div>
+                <div>
+                  <button
+                    id="close_btn"
+                    onClick={() => setModalIsOpen(false)}
+                    style={{
+                      backgroundColor: "red",
+                      height: "30px",
+                      width: "60px",
+                      color: "white",
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+            </div>
             </div>
           </div>
           <div className="yt_videos">
