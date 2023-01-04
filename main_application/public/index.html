@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="map2procoder_logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0.775" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=0.775"
+    />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -25,6 +28,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>map2proCoder</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-253088379-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-253088379-1");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
