@@ -10,9 +10,9 @@ nav{
     /* bottom: 2rem; */
     display: flex;
     gap:0.8rem;
-    border-radius: 3rem;
+    /* border-radius: 3rem; */
     backdrop-filter: blur(4px);
-    box-shadow: 0 0 10px #a237db, 0 0 40px #a237db, 0 0 80px #a237db;
+    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
 }
 
 nav a{

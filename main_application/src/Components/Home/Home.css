@@ -24,12 +24,13 @@
 
 
 .rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8, .rect9{
-    border: 2px solid magenta;
-    background-color: #313150;
+    /* border: 2px solid magenta; */
+    border:2px solid #31314b;
+    background-color: #020215;
     color: white;
     height: 13.625rem;
-    border-radius: 2.188rem;
-    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
+    /* border-radius: 2.188rem; */
+    /* box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db; */
 }
 
 .rect1 h4,.rect2 h4,.rect3 h4,.rect4 h4,.rect5 h4,.rect6 h4,.rect7 h4,.rect8 h4,.rect9 h4{
