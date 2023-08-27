@@ -71,12 +71,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-## some screenshots of the website
+## Website overview
 Home Page
-![image](https://user-images.githubusercontent.com/89141709/210149767-2ee7ba81-7c07-49c6-9e8f-a727c35ab034.png)
+![Screenshot (180)](https://github.com/yashgokakkar99/Project-Dec-2022/assets/87797220/8b48651e-569e-474e-8c54-6fb9c3cd5262)
 
-Main Page
-![image](https://user-images.githubusercontent.com/89141709/210149777-1d60bab6-09b8-4e8b-b49b-49a09e28a283.png)
+
+Subdomain page
+![Screenshot (185)](https://github.com/yashgokakkar99/Project-Dec-2022/assets/87797220/437fdf31-9889-4240-9805-623eef165ac9)
+
 
 About us Page
 ![image](https://user-images.githubusercontent.com/89141709/210149798-a06f660a-8ae9-441b-804d-94069ea0c9e3.png)
