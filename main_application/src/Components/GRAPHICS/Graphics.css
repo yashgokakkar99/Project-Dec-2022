@@ -16,11 +16,11 @@
 .Roadmap,
 .Courses,
 .Suggestion_form {
-    border: 2px solid magenta;
-    box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
-  background-color: #313150;
+    border: 2px solid #31314b;
+    /* box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db; */
+  background-color: #020215;
   color: white;
-  border-radius: 2.188rem;
+  border-radius: 0px;
   height: 300px;
 }
 
@@ -39,9 +39,9 @@
   flex-direction: row;
   text-align: center;
   
-  box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
-    0 0 10px rgb(131, 140, 230);
-  border-radius: 20px;
+  /* box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
+    0 0 10px rgb(131, 140, 230); */
+  /* border-radius: 20px; */
   height: 85%;
   width: 90%;
   margin: auto;
@@ -51,7 +51,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  border: 2px solid rgb(95, 136, 231);
+  border: 0px solid rgb(95, 136, 231);
   border-radius: 20px;
   height: 85%;
   width: 90%;
@@ -59,7 +59,7 @@
 }
 
 .all_links {
-  border: 2px solid rgb(100, 70, 182);
+  border: 0px solid rgb(100, 70, 182);
   height: 190px;
   width: 95%;
   margin: auto;
@@ -117,9 +117,9 @@
   flex-direction: row;
   text-align: center;
   justify-content: center;
-  border: 2px solid rgb(131, 140, 230);
-  box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
-    0 0 10px rgb(131, 140, 230);
+  border: 0px solid rgb(131, 140, 230);
+  /* box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
+    0 0 10px rgb(131, 140, 230); */
   border-radius: 20px;
   height: 85%;
   width: 90%;
@@ -147,9 +147,9 @@
   flex-direction: row;
   text-align: center;
   justify-content: center;
-  border: 2px solid rgb(131, 140, 230);
-  box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
-    0 0 10px rgb(131, 140, 230);
+  border: 0px solid rgb(131, 140, 230);
+  /* box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
+    0 0 10px rgb(131, 140, 230); */
   border-radius: 20px;
   height: 85%;
   width: 90%;
@@ -161,9 +161,10 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  border: 2px solid rgb(131, 140, 230);
-  box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
-    0 0 10px rgb(131, 140, 230);
+  border: 0px solid rgb(131, 140, 230);
+  /* box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
+    0 0 10px rgb(131, 140, 230); */
+
   border-radius: 20px;
   height: 85%;
   width: 90%;
@@ -171,11 +172,11 @@
 }
 
 .road_img {
-  border: 2px solid rgb(100, 70, 182);
+  border: 0px solid rgb(100, 70, 182);
   height: 190px;
   width: 95%;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .road_img img {
@@ -184,12 +185,12 @@
 }
 
 .button {
-  border: 2px solid rgb(30, 25, 111);
+  border: 0px solid rgb(30, 25, 111);
   height: 30px;
   background-color: rgb(221, 185, 243);
   width: 95%;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .button a {
@@ -210,10 +211,10 @@
 .project_con {
   display: flex;
   flex-direction: column;
-  border: 2px solid rgb(131, 140, 230);
-  box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
-    0 0 10px rgb(131, 140, 230);
-  border-radius: 20px;
+  border: 0px solid rgb(131, 140, 230);
+  /* box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
+    0 0 10px rgb(131, 140, 230); */
+  border-radius: 0px;
   height: 85%;
   width: 90%;
   margin: auto;
@@ -224,9 +225,9 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  border: 2px solid rgb(131, 140, 230);
-  box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
-    0 0 10px rgb(131, 140, 230);
+  border: 0px solid rgb(131, 140, 230);
+  /* box-shadow: 0 0 2px rgb(131, 140, 230), 0 0 5px rgb(131, 140, 230),
+    0 0 10px rgb(131, 140, 230); */
   border-radius: 20px;
   height: 85%;
   width: 90%;
@@ -266,8 +267,8 @@
   text-align: center;
   margin-bottom: 5rem;
   border-radius: 18rem;
-  border: 2px solid transparent;
-  border-color: rgb(51, 70, 155);
+  border: 0px solid transparent;
+  /* border-color: rgb(51, 70, 155); */
   height: 70%;
   width: 80%;
   padding-top: 4rem;

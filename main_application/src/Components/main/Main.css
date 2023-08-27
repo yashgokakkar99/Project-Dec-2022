@@ -21,11 +21,11 @@
 .Roadmap,
 .Courses,
 .Suggestion_form {
-  border: 2px solid magenta;
-  box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
-  background-color: #313150;
+  border: 2px solid #31314b;
+  /* box-shadow: 0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db; */
+  background-color: #1A1A2A;
   color: white;
-  border-radius: 2.188rem;
+  /* border-radius: 2.188rem; */
   height: 300px;
 }
 

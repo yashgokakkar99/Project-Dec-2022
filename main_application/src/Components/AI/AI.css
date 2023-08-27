@@ -13,10 +13,10 @@
 .Roadmap,
 .Courses,
 .Suggestion_form {
-  border: 5px solid rgb(145, 111, 230);
+  /* border: 5px solid rgb(145, 111, 230); */
   background-color: #151523;
   color: black;
-  border-radius: 2.188rem;
+  /* border-radius: 2.188rem; */
   height: 300px;
 }
 
