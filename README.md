@@ -80,7 +80,7 @@ Subdomain page
 ![Screenshot (185)](https://github.com/yashgokakkar99/Project-Dec-2022/assets/87797220/437fdf31-9889-4240-9805-623eef165ac9)
 
 
-About us Page
+<!--About us Page
 ![image](https://user-images.githubusercontent.com/89141709/210149798-a06f660a-8ae9-441b-804d-94069ea0c9e3.png)
 
 Suggestion form
@@ -90,4 +90,4 @@ Contact us
 ![image](https://user-images.githubusercontent.com/89141709/210149824-005382fd-13c1-4a16-8570-a652dfe8647e.png)
 
 logo
-![image](https://user-images.githubusercontent.com/89141709/210149828-579e57fa-b07e-496e-a26b-97bf6a21976b.png)
+![image](https://user-images.githubusercontent.com/89141709/210149828-579e57fa-b07e-496e-a26b-97bf6a21976b.png)-->
