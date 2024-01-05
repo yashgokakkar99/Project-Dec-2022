@@ -11,3 +11,9 @@
     height: 50px;
     width: 50px;
 }
+
+.Top-btn:hover{
+    color: #ffff;
+    background-color: #a237db;
+
+}
