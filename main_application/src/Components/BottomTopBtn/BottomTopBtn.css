@@ -1,0 +1,37 @@
+.Top-btn{
+    position:fixed;
+    border-radius: 60px;
+    color:#a237db;
+    background-color: transparent;
+    padding-top:4px;
+    box-shadow:  0 0 2px #a237db, 0 0 5px #a237db, 0 0 10px #a237db;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+.Top-btn:before{
+    content:"";
+    position:absolute;
+    background-color: #a237db;
+    height: 100%;
+    width:100%;
+    border-radius: 60px;
+    right:0.0px;
+    bottom:0.0px;
+   transform:translate(0,+100%);
+   transition:all 0.3s linear;
+}
+
+.Top-btn:hover:before{
+    transform: translate(0);
+    z-index: -1;
+}
+
+.Top-btn:hover{
+    color:#ffff;
+}

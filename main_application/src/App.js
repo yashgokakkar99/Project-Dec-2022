@@ -8,6 +8,7 @@ import Suggestion from "./Components/Suggestion/Suggestion";
 import Navbar from "./Components/Navbar/Navbar";
 import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import BottomTopBtn from "./Components/BottomTopBtn/BottomTopBtn";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -44,6 +45,8 @@ function App() {
           <Suggestion />
           <Contact />
           <Footer />
+          <BottomTopBtn/>
+
         </>
       )}
     </div>
