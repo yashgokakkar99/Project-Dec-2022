@@ -23,7 +23,7 @@ const BottomTopBtn = () => {
   return (
     <div>
       {TopBtn && (
-        <button onClick={scrollUp} className="Top-btn">
+        <button onClick={scrollUp} className="Top-btn" >
           ^
         </button>
       )}
